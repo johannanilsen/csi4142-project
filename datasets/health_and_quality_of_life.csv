@@ -1,0 +1,271 @@
+﻿,Series Name,Series Code,Country Code,2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+Argentina,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,ARG,98,91,91,93,94,94,91,91,94,94,94,92,86,86,86,..
+Argentina,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,ARG,88,84,85,90,94,94,91,91,94,94,94,92,86,86,86,..
+Argentina,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,ARG,98,91,91,93,94,94,91,91,94,94,94,92,86,86,86,..
+Argentina,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,ARG,95,92,92,94,97,95,93,90,90,92,93,87,84,84,84,..
+Argentina,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,ARG,98,97,94,96,96,95,95,94,94,95,89,90,89,94,94,..
+Argentina,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,ARG,3.9133997,4.01898909,4.25491619,4.50853157,5.66982412,5.56834602,5.68118334,6.13486385,6.22041893,6.32730198,6.8243742,5.59118652,6.59935617,5.93580294,5.93055725,..
+Argentina,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,ARG,4,..,..,..,..,4.5,4.39,4.59,4.78,4.84,4.96,4.95,4.99,..,..,..
+Argentina,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,Number of stillbirths,SH.DTH.STLB,ARG,4279,4151,4070,3983,3894,3624,3660,3831,3915,3939,3871,3956,3978,4042,4042,..
+Argentina,Number of infant deaths,SH.DTH.IMRT,ARG,10716,10454,10242,10043,9821,9554,9228,8861,8479,8102,7719,7322,6915,6503,6095,5719
+Argentina,Number of deaths ages 5-9 years,SH.DTH.0509,ARG,873,874,871,861,841,813,780,748,721,700,682,665,647,627,605,583
+Argentina,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,ARG,..,..,..,..,..,..,..,..,68.9,..,..,..,..,..,..,..
+Argentina,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,ARG,..,..,..,..,..,..,5.5,..,..,..,..,..,..,..,..,..
+Argentina,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,ARG,19.9,19.6,19.4,19.2,19.1,18.8,18.7,18.5,18.4,18.3,18.3,18.3,18.5,18.6,19,..
+Argentina,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,ARG,57.1,57.6,58.2,58.7,59.2,59.7,60.2,60.7,61.2,61.8,62.3,62.7,..,..,..,..
+Argentina,Adults (ages 15+) living with HIV,SH.DYN.AIDS,ARG,78000,82000,86000,90000,94000,99000,100000,110000,110000,120000,120000,120000,130000,130000,130000,140000
+Argentina,Children (0-14) living with HIV,SH.HIV.0014,ARG,1500,1500,1600,1600,1600,1600,1500,1500,1500,1400,1400,1300,1300,1300,1200,1200
+Argentina,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,ARG,98.98564786,99.03929938,99.0929509,99.14660242,99.20025394,99.25390546,99.30755697,99.36120849,99.41486001,99.46851153,99.52216305,99.57581457,99.62946609,99.68311761,99.73676913,99.79042065
+Argentina,People practicing open defecation (% of population),SH.STA.ODFC.ZS,ARG,..,1.976227394,1.925728699,1.875211469,1.824743276,1.774327746,1.724886697,1.675980846,1.627158149,1.578222119,..,..,..,..,..,..
+Argentina,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,ARG,89.86410386,90.3920797,90.91980455,91.44751476,91.97501431,92.50233092,93.02688168,93.55005363,94.01399452,94.48011382,94.9480284,95.41770247,..,..,..,..
+Argentina,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,ARG,48.89879673,49.11201065,49.32598106,49.54076879,49.75629799,49.97256189,50.18866086,50.40496589,50.61825328,50.83251634,51.04761816,51.26354091,..,..,..,..
+Argentina,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,ARG,72.0615615,72.73258884,73.40436101,74.07687801,74.75013983,75.42414648,76.09889796,76.77439426,76.77439426,76.77439426,76.77439426,76.77439426,..,..,..,..
+Argentina,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,ARG,91.83535809,92.31073502,92.78714549,93.2645895,93.74306704,94.22257811,94.70312272,95.18470087,95.66731254,96.15095776,96.63563651,97.12134879,97.44752134,97.64239372,97.83713279,98.75099299
+Argentina,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,ARG,..,..,..,..,100,..,100,..,100,..,100,..,100,..,..,..
+Canada,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,CAN,93,95,94,92,91,89,87,91,91,91,91,91,91,91,91,..
+Canada,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,CAN,14,14,14,28,42,56,70,70,55,55,69,70,71,71,74,..
+Canada,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,CAN,93,95,93,92,91,90,89,90,91,91,91,91,91,91,91,..
+Canada,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,CAN,93,95,99,96,93,90,87,91,91,91,91,91,91,91,91,..
+Canada,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,CAN,94,93,94,93,91,90,88,89,90,90,89,89,90,90,90,..
+Canada,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,CAN,6.59905815,6.4866991,6.57271051,6.70117044,7.52118206,7.47694063,7.30276871,7.4011817,7.3582077,7.23180246,7.58065939,7.67784119,7.56277943,7.58277988,7.60929585,..
+Canada,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,CAN,3.1,3.02,2.96,2.85,2.8,2.78,2.8,2.79,2.72,2.67,2.62,2.6,2.53,2.55,2.52,..
+Canada,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,Number of stillbirths,SH.DTH.STLB,CAN,1037,1083,1129,1138,1126,1114,1116,1110,1107,1114,1097,1087,1089,1083,1072,..
+Canada,Number of infant deaths,SH.DTH.IMRT,CAN,1800,1825,1845,1860,1869,1871,1866,1855,1839,1820,1799,1777,1757,1736,1715,1692
+Canada,Number of deaths ages 5-9 years,SH.DTH.0509,CAN,201,192,184,177,172,168,165,162,162,162,162,161,159,155,151,147
+Canada,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,CAN,..,..,..,..,..,..,8.4,..,..,..,..,..,..,..,..,..
+Canada,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,CAN,10.3,10.3,10.3,10.3,10.4,10.4,10.5,10.7,10.9,11.2,11.5,11.8,12.2,12.7,13.2,..
+Canada,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,CAN,58.6,59.2,59.7,60.2,60.7,61.2,61.7,62.2,62.7,63.2,63.7,64.1,..,..,..,..
+Canada,Adults (ages 15+) living with HIV,SH.DYN.AIDS,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,Children (0-14) living with HIV,SH.HIV.0014,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,CAN,98.24079534,98.29946776,98.35997369,98.41990954,98.47926264,98.53806358,98.59599042,98.65168006,98.70725106,98.76270793,98.81806216,98.87330686,98.92850562,98.98362633,99.03861451,99.03894727
+Canada,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,CAN,99.48998183,99.47343153,99.45688123,99.44033093,99.42378064,99.40723034,99.39068004,99.37412975,99.35757945,99.34102915,99.32447885,99.30792856,99.29137826,99.27482796,99.25827766,99.25827766
+Canada,People practicing open defecation (% of population),SH.STA.ODFC.ZS,CAN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Canada,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,CAN,99.80519484,99.75033789,99.69595411,99.6414571,99.5868457,99.53213067,99.47721571,99.42171918,99.36619078,99.31064352,99.25507123,99.19947682,99.14388406,99.08828896,99.03268117,99.03286158
+Canada,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,CAN,78.8857635,79.28068911,79.67517216,80.06894984,80.46202275,80.85439848,81.24600912,81.636549,82.02636889,82.41547978,82.80387768,83.1915656,83.5785755,83.97367373,84.36813002,84.36839322
+Canada,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,CAN,99.3057628,99.27332025,99.24087771,99.20843516,99.17599261,99.14355006,99.11110751,99.07866496,99.04622241,99.01377986,98.98133731,98.94889476,98.91645221,98.88400966,98.85156711,98.85156711
+Canada,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,CAN,99.92909847,99.86800895,99.80691943,99.74582992,99.6847404,99.62365088,99.56256136,99.50147184,99.44038232,99.3792928,99.31820329,99.25711377,99.19602425,99.13493473,99.07384521,99.07384521
+Canada,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,CAN,..,..,..,..,40,..,35,..,37,..,55,..,55,..,..,..
+Ethiopia,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,ETH,44,46,50,54,58,61,65,62,59,61,64,66,69,68,69,..
+Ethiopia,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,ETH,..,..,47,52,56,62,65,62,59,61,63,66,68,68,68,..
+Ethiopia,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,ETH,..,..,47,52,56,62,65,62,59,61,63,66,68,68,68,..
+Ethiopia,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,ETH,56,59,61,63,65,69,70,70,70,68,76,72,72,72,72,..
+Ethiopia,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,ETH,40,44,49,54,59,64,68,62,55,54,56,57,59,55,58,..
+Ethiopia,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,ETH,1.72821558,1.1201272,1.33306789,0.51425028,0.90700835,0.94396371,0.38117662,1.06663215,1.0996722,0.71479219,0.96540976,0.90002781,0.86126679,0.77089483,0.73514652,..
+Ethiopia,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,ETH,..,0.2,..,0.2,..,..,6.3,..,..,..,0.3,0.33,..,..,..,..
+Ethiopia,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,ETH,..,..,..,..,..,..,43,..,..,..,..,..,..,..,..,..
+Ethiopia,Number of stillbirths,SH.DTH.STLB,ETH,105601,104838,103721,103070,102415,101121,100044,98591,97669,96437,94731,93168,92055,91090,90323,..
+Ethiopia,Number of infant deaths,SH.DTH.IMRT,ETH,205677,196895,188757,181356,174702,168763,163338,158244,153408,148951,144651,140339,136197,132502,129345,126555
+Ethiopia,Number of deaths ages 5-9 years,SH.DTH.0509,ETH,48662,45519,42096,38682,35189,31895,28867,26043,23491,21175,19082,17313,15960,14956,14205,13592
+Ethiopia,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,ETH,..,..,0.218,0.296,0.363,..,..,..,..,..,..,..,..,..,..,..
+Ethiopia,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,ETH,13.9,..,..,..,..,..,27.3,..,..,40.4,36,35.3,35.4,38.2,40.5,..
+Ethiopia,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,ETH,43.3,..,..,..,..,..,52.3,..,..,..,..,55,..,..,..,..
+Ethiopia,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,ETH,..,..,..,..,..,..,3.4,..,..,..,..,..,..,..,..,..
+Ethiopia,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,ETH,58.5,56.9,55.3,53.8,52.6,51.6,51,50.6,50.4,50.3,50.5,50.9,51.2,51.6,52.1,..
+Ethiopia,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,ETH,15.9,16.3,16.7,17.1,17.6,18,18.5,18.9,19.4,19.9,20.4,20.9,..,..,..,..
+Ethiopia,Adults (ages 15+) living with HIV,SH.DYN.AIDS,ETH,580000,560000,550000,540000,540000,550000,560000,560000,570000,570000,580000,580000,580000,580000,580000,580000
+Ethiopia,Children (0-14) living with HIV,SH.HIV.0014,ETH,130000,120000,120000,110000,100000,97000,90000,83000,76000,70000,65000,60000,56000,52000,48000,44000
+Ethiopia,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,ETH,6.161740563,6.406574901,6.674751772,7.022537739,7.389051059,7.775105666,8.179737392,8.603385458,9.039095602,9.492952501,9.964319063,10.45325267,10.95876046,11.48156823,12.02134693,12.57741919
+Ethiopia,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,ETH,77.46617029,77.91461309,78.36324652,78.81207058,79.26108527,79.71029058,80.15968652,80.60927308,81.05905028,81.50901809,81.95917654,82.40952561,82.86006531,83.31079563,83.76171659,84.21282816
+Ethiopia,People practicing open defecation (% of population),SH.STA.ODFC.ZS,ETH,61.87080584,58.85152533,55.83274958,52.74309695,49.66892809,46.60942146,43.56597714,40.53834893,37.53364479,34.54544412,31.57458485,28.62128076,25.68658391,22.77022398,19.87282118,16.99517615
+Ethiopia,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,ETH,4.387345766,4.697368402,5.004006991,5.330693277,5.652562495,5.970178339,6.283374607,6.592580755,6.895076853,7.193679174,7.488374296,7.77945876,8.066773108,8.350931686,8.632097142,8.910277929
+Ethiopia,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,ETH,3.355939326,3.588700651,3.818593969,4.063969302,4.305104889,4.5424233,4.775775962,5.005476723,5.224650007,5.439999707,5.654994616,5.866489062,6.074356692,6.279053616,6.480693308,6.679274945
+Ethiopia,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,ETH,2.097557945,2.374559592,2.643951325,2.905733145,3.159905051,3.406467043,3.645419121,3.876761286,4.100493537,4.316615874,4.525128297,4.726030807,4.919323402,5.105006084,5.283078853,5.453541707
+Ethiopia,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,ETH,16.68219371,16.98433968,17.28812841,17.59355991,17.90063417,18.2093512,18.519711,18.83171356,19.14535889,19.46064698,19.77757784,20.09615147,20.41636787,20.73822703,21.06172895,21.38687365
+Ethiopia,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,ETH,..,..,..,..,..,7.49747289,7.561661917,7.627240003,7.69127408,7.756543928,7.822892938,7.890476218,7.958985824,8.0288839,8.100170589,8.172691862
+Ethiopia,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,ETH,..,..,..,..,..,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381,4.825143381
+Ethiopia,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,ETH,..,..,..,..,..,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999,20.25518999
+Ethiopia,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,ETH,..,..,..,..,100,..,100,..,100,..,100,..,100,..,..,..
+Mali,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,MLI,77,78,74,74,73,73,66,65,64,66,71,76,77,77,77,..
+Mali,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,MLI,83,90,74,74,71,72,66,65,64,66,71,76,77,77,77,..
+Mali,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,MLI,1,16,44,74,73,73,66,65,64,66,71,76,77,77,77,..
+Mali,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,MLI,78,79,76,74,77,77,72,65,57,62,67,72,72,72,72,..
+Mali,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,MLI,73,68,66,71,73,78,72,67,62,61,66,70,70,70,70,..
+Mali,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,MLI,1.3972441,1.22407377,0.99664676,0.71611649,0.66759121,0.66898072,0.6047585,0.4135493,0.81583822,0.89173353,0.91927379,1.20876765,1.17751443,1.15118265,1.31026745,..
+Mali,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,MLI,0.3,..,..,0.6,..,0.1,..,..,..,..,..,..,..,..,..,..
+Mali,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,MLI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mali,Number of stillbirths,SH.DTH.STLB,MLI,16184,16320,16465,16487,16450,16391,16327,16284,16246,16219,16163,16074,16056,16240,16251,..
+Mali,Number of infant deaths,SH.DTH.IMRT,MLI,53259,53252,53146,52968,52666,52286,51817,51282,50721,50154,49591,49075,48624,48199,47832,47474
+Mali,Number of deaths ages 5-9 years,SH.DTH.0509,MLI,7504,7578,7681,7798,7903,7984,8103,8221,8313,8396,8439,8491,8497,8462,8378,8298
+Mali,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,MLI,..,..,..,..,0.008,0.007,..,..,..,..,..,..,..,..,..,..
+Mali,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,MLI,..,6.9,..,..,..,9,..,..,9.9,..,15.1,..,..,16.4,..,..
+Mali,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,MLI,..,22,..,..,..,..,..,..,33.5,..,..,..,..,35.3,..,..
+Mali,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,MLI,..,..,..,..,..,..,1.9,..,..,..,..,..,..,..,..,..
+Mali,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,MLI,82.7,82.3,82,81.9,81.8,81.8,81.7,81.8,81.8,81.7,81.4,81,80.4,79.8,79,..
+Mali,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,MLI,21,21.6,22.2,22.8,23.5,24.1,24.7,25.4,26,26.7,27.4,28.1,..,..,..,..
+Mali,Adults (ages 15+) living with HIV,SH.DYN.AIDS,MLI,97000,96000,96000,96000,97000,97000,97000,98000,98000,97000,97000,97000,96000,96000,96000,96000
+Mali,Children (0-14) living with HIV,SH.HIV.0014,MLI,20000,20000,20000,20000,20000,19000,18000,18000,17000,17000,16000,16000,15000,15000,15000,14000
+Mali,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,MLI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mali,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,MLI,80.90382236,81.90430977,82.90485737,83.90546518,84.90613319,85.9068614,86.90764982,87.90849844,88.90940727,89.9103763,90.91140553,91.91249497,92.91364461,93.91485445,94.9161245,95.91745475
+Mali,People practicing open defecation (% of population),SH.STA.ODFC.ZS,MLI,16.68550443,15.8207364,14.9663647,14.12205598,13.28889115,12.46764187,11.6585056,10.86164766,10.07720255,9.305148874,8.545702303,7.798794424,7.064355973,6.342511519,5.633056458,4.93614394
+Mali,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,MLI,22.18828766,23.5713536,24.982076,26.42048985,27.88463013,29.37283026,30.88418517,32.41780818,33.9728243,35.54860433,37.14408722,38.7586803,40.39179278,42.04244608,43.71028764,45.39420987
+Mali,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,MLI,9.398892124,10.07965255,10.7673983,11.46107647,12.15677504,12.85689472,13.56074692,14.26768035,14.97708308,15.68827712,16.40083107,17.11413871,17.82759777,18.53257096,19.22903769,19.9246421
+Mali,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,MLI,13.9781422,15.25776984,16.57653442,17.93443595,19.33147442,20.76764983,22.24296219,23.7574115,25.31099775,26.90372095,28.53558109,30.20657817,31.9167122,33.66598318,35.4543911,37.28193596
+Mali,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,MLI,39.58683043,40.57935571,41.58409452,42.60104687,43.63021274,44.67159216,45.7251851,46.79099158,47.86901159,48.95924514,50.06169222,51.17635283,52.30322698,53.44231465,54.59361587,55.75713061
+Mali,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,MLI,..,..,..,..,..,..,..,..,..,16.17723713,16.32036872,16.46296063,16.60501226,16.74616454,16.88659658,17.02576795
+Mali,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,MLI,..,..,..,..,..,..,..,..,..,9.120374815,9.120374815,9.120374815,9.120374815,9.120374815,9.120374815,9.120374815
+Mali,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,MLI,..,..,..,..,..,..,..,..,..,27.12441149,27.12441149,27.12441149,27.12441149,27.12441149,27.12441149,27.12441149
+Mali,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,MLI,..,..,..,..,100,..,100,..,100,..,100,..,100,..,..,..
+Mexico,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,MEX,98,98,98,96,95,95,97,99,83,87,87,93,85,88,82,..
+Mexico,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,MEX,98,98,98,97,95,93,98,99,82,84,82,93,58,55,56,..
+Mexico,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,MEX,98,98,98,96,95,95,97,99,83,87,87,93,85,88,82,..
+Mexico,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,MEX,98,98,98,96,95,95,97,99,83,87,87,96,85,88,82,..
+Mexico,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,MEX,96,96,96,96,96,95,98,99,89,97,97,96,76,97,73,..
+Mexico,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,MEX,2.46497631,2.4219811,2.52675962,2.61655498,2.86067677,2.8809936,2.91415977,3.00721955,3.12253189,2.89231014,2.98734331,2.84779787,2.75801349,2.6718502,2.67891455,..
+Mexico,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,MEX,1.05,1.02,1.06,1.03,1.02,1.05,1.04,1.03,1.03,1.03,1,1,0.99,0.98,..,..
+Mexico,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,MEX,..,..,..,..,..,..,..,..,..,..,1303,..,..,..,..,..
+Mexico,Number of stillbirths,SH.DTH.STLB,MEX,18512,18000,17560,17321,17106,16826,16514,16133,15793,15485,15333,15271,15287,15296,15136,..
+Mexico,Number of infant deaths,SH.DTH.IMRT,MEX,44987,43211,41560,40080,38731,37469,36250,35073,33910,32728,31538,30368,29178,28010,26892,25833
+Mexico,Number of deaths ages 5-9 years,SH.DTH.0509,MEX,3122,3075,3040,3011,2974,2921,2858,2785,2707,2633,2570,2519,2476,2441,2407,2369
+Mexico,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,MEX,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mexico,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,MEX,..,66.5,..,..,67.4,..,..,..,..,68.4,65,..,..,69.8,..,..
+Mexico,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,MEX,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mexico,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,MEX,..,..,..,..,..,..,15.6,..,..,..,..,..,..,..,..,..
+Mexico,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,MEX,28,27.5,26.9,26.3,25.7,25.1,24.5,23.9,23.4,22.9,22.5,22.2,21.9,21.7,21.7,..
+Mexico,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,MEX,58.9,59.5,60.1,60.6,61.2,61.7,62.3,62.8,63.3,63.9,64.4,64.9,..,..,..,..
+Mexico,Adults (ages 15+) living with HIV,SH.DYN.AIDS,MEX,190000,190000,200000,210000,220000,230000,240000,250000,260000,270000,280000,290000,300000,320000,330000,340000
+Mexico,Children (0-14) living with HIV,SH.HIV.0014,MEX,1900,2200,2400,2400,2500,2500,2500,2500,2500,2400,2400,2300,2300,2300,2300,2300
+Mexico,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,MEX,40.35948897,40.5640574,40.76641554,40.96669575,41.16482643,41.36089371,41.55507773,41.74726437,41.93753836,42.12589627,42.31228861,42.49678317,42.67933349,42.84912192,42.93896105,43.02628491
+Mexico,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,MEX,96.60292525,96.89332254,97.18390312,97.47192479,97.72787166,97.98381853,98.23976541,98.49571228,98.75165915,99.00760603,99.2635529,99.51949977,99.77544665,100,100,100
+Mexico,People practicing open defecation (% of population),SH.STA.ODFC.ZS,MEX,6.910224385,6.413280454,5.923779375,5.441312933,4.966066408,4.497791888,4.035972895,3.58092129,3.132406947,2.69042959,2.255108509,1.826280678,1.404019929,0.988233853,0.351365143,0.096456614
+Mexico,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,MEX,81.27377788,82.07830717,82.87293106,83.65830449,84.43419231,85.20102819,85.95971004,86.70980432,87.45178303,88.18573213,88.91148404,89.62944687,90.33947554,91.04184497,91.73666093,92.42406261
+Mexico,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,MEX,23.87717464,25.87350566,27.90436423,29.96951033,32.0685671,34.20129298,36.3676703,38.56730401,40.80011597,43.06591674,45.36435171,47.69541008,50.0587208,52.45421467,54.88172246,57.34110284
+Mexico,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,MEX,62.36085428,64.00811634,65.6456319,67.27340096,68.89142351,70.49969957,72.09822913,73.6870122,75.26604876,76.83533882,78.39488239,79.94467945,81.48473002,83.01503408,84.53559165,86.04640272
+Mexico,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,MEX,87.14583541,87.59351893,88.04201393,88.49132043,88.9414384,89.39236786,89.84410881,90.29666125,90.75002516,91.20420057,91.65918746,92.11498583,92.57159569,93.02901704,93.48724987,93.94629419
+Mexico,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,MEX,..,..,..,..,..,..,89.66001526,89.68317442,89.70633655,89.72949429,89.75249473,89.77550185,89.79834169,89.82111114,89.84379235,..
+Mexico,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,MEX,..,..,..,..,..,..,83.50700895,83.50700895,83.50700895,83.50700895,83.50700895,83.50700895,83.50700895,83.50700895,83.50700895,..
+Mexico,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,MEX,..,..,..,..,..,..,91.38427265,91.38427265,91.38427265,91.38427265,91.38427265,91.38427265,91.38427265,91.38427265,91.38427265,..
+Mexico,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,MEX,..,..,..,..,100,..,100,..,100,..,100,..,100,..,..,..
+Niger,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,NER,45,51,57,67,71,70,75,71,73,81,84,80,85,79,81,..
+Niger,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,NER,..,..,..,..,71,70,75,71,73,81,84,80,85,79,81,..
+Niger,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,NER,..,..,..,..,71,70,75,71,73,81,84,80,85,79,81,..
+Niger,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,NER,46,52,57,68,71,75,40,71,62,79,83,82,85,79,81,..
+Niger,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,NER,47,53,60,66,69,67,69,75,80,80,85,76,82,77,79,..
+Niger,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,NER,1.92017889,2.05841351,1.50168777,1.55048287,1.53777564,1.31193805,1.27229667,1.03993475,1.34044743,1.27712488,1.11163175,1.10086405,1.88447475,1.76169312,2.02315378,..
+Niger,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,NER,0.3,..,..,..,..,0.35,..,..,..,..,0.31,..,0.39,..,..,..
+Niger,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,NER,..,..,..,..,..,..,..,..,..,263,..,..,..,..,..,..
+Niger,Number of stillbirths,SH.DTH.STLB,NER,17980,18092,18174,18183,18273,18416,18639,18925,19243,19505,19860,20198,20533,20923,21283,..
+Niger,Number of infant deaths,SH.DTH.IMRT,NER,54068,53134,52212,51328,50485,49717,49094,48672,48391,48300,48248,48327,48455,48635,48787,49022
+Niger,Number of deaths ages 5-9 years,SH.DTH.0509,NER,11784,11799,11847,11911,11956,12002,12106,12211,12309,12359,12410,12480,12537,12609,12610,12599
+Niger,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,NER,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Niger,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,NER,..,5,..,..,..,..,..,12.2,..,..,13.2,14.8,18.2,10.5,..,..
+Niger,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,NER,..,42.1,..,..,..,..,..,39.9,..,..,..,..,..,..,..,..
+Niger,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,NER,..,..,..,..,..,..,4.2,..,..,..,..,..,..,..,..,..
+Niger,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,NER,81.5,80.8,80,79.3,78.5,77.8,77.1,76.5,76,75.6,75.1,74.5,73.8,72.9,72,..
+Niger,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,NER,16.9,17.3,17.7,18.2,18.6,19.1,19.5,20,20.5,21,21.5,22,..,..,..,..
+Niger,Adults (ages 15+) living with HIV,SH.DYN.AIDS,NER,37000,36000,35000,34000,32000,32000,31000,30000,30000,30000,29000,29000,29000,28000,28000,28000
+Niger,Children (0-14) living with HIV,SH.HIV.0014,NER,5500,5600,5700,5700,5600,5200,4900,4700,4500,4200,4000,3700,3500,3400,3300,3200
+Niger,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,NER,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Niger,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,NER,90.90455255,90.5645543,90.22464425,89.8848224,89.54508875,89.2054433,88.86588605,88.526417,88.18703614,87.84774349,87.50853904,87.16942278,86.83039473,86.49145487,86.15260321,85.81383976
+Niger,People practicing open defecation (% of population),SH.STA.ODFC.ZS,NER,78.4450149,77.77598644,77.10694127,76.43858532,75.76950653,75.1004118,74.43200214,73.7628785,73.09373673,72.41421008,71.72301152,71.02160644,70.30871964,69.58580949,68.85160297,68.10619172
+Niger,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,NER,7.901511602,8.401596097,8.8936197,9.377293422,9.853170088,10.32097412,10.78038007,11.23201288,11.67555994,12.11638501,12.55582982,12.99383525,13.43185924,13.86985027,14.30938558,14.75130566
+Niger,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,NER,9.256826745,9.814903939,10.3579956,10.8858509,11.39895417,11.897061,12.37990497,12.84800105,13.30108842,13.74334085,14.1756123,14.59767048,15.01045325,15.41375964,15.80861376,16.18740843
+Niger,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,NER,3.804920627,4.136747876,4.455250072,4.760427214,5.052279303,5.330806337,5.596008317,5.847885244,6.086437117,6.311663936,6.523565701,6.722142412,6.907394069,7.079320673,7.237922223,7.383198719
+Niger,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,NER,29.02712842,30.40136422,31.79521247,33.20867318,34.64174635,36.09443197,37.56673006,39.05864059,40.57016359,42.10129903,43.65204694,45.2224073,46.81238012,48.4219654,50.05116313,51.69997332
+Niger,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,NER,7.123087085,8.208276197,9.293510821,10.37854224,11.46387169,12.54924695,13.63443537,14.7199067,15.80542286,16.89419928,17.98640113,19.08133442,20.17914189,21.2791514,22.38148248,23.48584637
+Niger,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,NER,2.817739176,3.99542571,5.173112244,6.350798778,7.528485312,8.706171846,9.88385838,11.06154491,12.23923145,13.41691798,14.59460452,15.77229105,16.94997758,18.12766412,19.30535065,20.48303719
+Niger,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,NER,29.32523791,29.93981952,30.55440113,31.16898274,31.78356434,32.39814595,33.01272756,33.62730916,34.24189077,34.85647238,35.47105398,36.08563559,36.7002172,37.3147988,37.92938041,38.54396202
+Niger,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,NER,..,..,..,..,100,..,100,..,100,..,100,..,100,..,..,..
+Nigeria,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,NGA,36,40,42,53,63,54,48,42,43,43,42,53,55,56,57,..
+Nigeria,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,NGA,18,27,42,41,63,49,46,42,43,43,42,53,55,56,57,..
+Nigeria,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,NGA,..,..,..,..,..,..,..,10,27,43,42,53,55,56,57,..
+Nigeria,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,NGA,45,46,54,60,66,54,48,42,41,40,42,53,55,56,57,..
+Nigeria,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,NGA,41,44,41,53,64,56,49,42,43,44,42,51,54,54,54,..
+Nigeria,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,NGA,1.14133215,0.90186709,0.77861226,0.66059947,0.57001245,0.44847032,0.47937733,0.54436678,0.48927841,0.44593188,0.58907843,0.47496936,0.53265768,0.49754339,0.48264918,..
+Nigeria,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,NGA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Nigeria,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,NGA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Nigeria,Number of stillbirths,SH.DTH.STLB,NGA,154544,155634,156405,157292,158276,159399,160170,162164,163196,165119,166992,168443,170259,170558,171428,..
+Nigeria,Number of infant deaths,SH.DTH.IMRT,NGA,547409,543784,540903,539660,539539,540794,542836,545541,548739,551797,554557,555616,554698,551611,547026,541477
+Nigeria,Number of deaths ages 5-9 years,SH.DTH.0509,NGA,76099,76767,77499,78225,78947,79511,80277,81042,81678,82279,82743,83598,84385,85009,85227,84960
+Nigeria,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,NGA,..,..,0.131,0.128,..,..,..,..,..,..,..,..,..,..,..,..
+Nigeria,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,NGA,..,..,10.5,9.7,..,..,11.5,10.7,9.8,..,..,16.7,10.7,12,..,..
+Nigeria,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,NGA,..,..,..,42.4,..,..,..,..,54.9,..,..,..,..,27.7,..,..
+Nigeria,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,NGA,..,..,..,..,..,..,4.8,..,..,..,..,..,..,..,..,..
+Nigeria,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,NGA,75.8,75,74.3,73.6,73.1,72.6,72.2,71.9,71.8,71.5,71.3,70.9,70.4,69.7,68.9,..
+Nigeria,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,NGA,21.8,22.4,23,23.7,24.3,24.9,25.6,26.2,26.9,27.6,28.3,28.9,..,..,..,..
+Nigeria,Adults (ages 15+) living with HIV,SH.DYN.AIDS,NGA,1100000,1100000,1200000,1200000,1200000,1300000,1300000,1300000,1400000,1400000,1500000,1500000,1500000,1600000,1600000,1600000
+Nigeria,Children (0-14) living with HIV,SH.HIV.0014,NGA,140000,150000,150000,150000,150000,150000,150000,150000,140000,140000,130000,130000,130000,130000,130000,130000
+Nigeria,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,NGA,15.88227547,16.30025529,16.71431554,17.12444944,17.53024971,17.93202871,18.32863851,18.72015588,19.10647338,19.48767868,19.8638587,20.23484458,20.60090577,20.96197137,21.31806305,21.66928927
+Nigeria,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,NGA,72.43679318,73.68966198,74.95327249,76.22762472,77.51271866,78.80855432,80.11513169,81.43245078,82.76051158,84.09931409,85.44885832,86.80914427,88.18017193,89.5619413,90.95445239,92.35770519
+Nigeria,People practicing open defecation (% of population),SH.STA.ODFC.ZS,NGA,24.57233598,24.18416347,23.79342858,23.40012045,23.00504171,22.60757159,22.21017321,21.81285753,21.41605195,21.01977234,20.62403473,20.22948131,19.83571592,19.44317572,19.05209648,18.66249807
+Nigeria,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,NGA,31.08842573,31.72621811,32.38283617,33.05882638,33.75440047,34.4702898,35.2058112,35.96118435,36.73638446,37.53156546,38.34687431,39.18201097,40.0373347,40.91261014,41.80768804,42.72256141
+Nigeria,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,NGA,22.85006965,23.26927858,23.70064584,24.14455283,24.60127561,25.07123103,25.55433685,26.05075831,26.56055695,27.08385391,27.62076539,28.17119796,28.73534958,29.31313945,29.90451468,30.50948612
+Nigeria,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,NGA,29.09222126,29.36459794,29.63557779,29.90516082,30.17334702,30.44013638,30.70552892,30.96952463,31.23212352,31.49332557,31.75313079,32.01153919,32.26855076,32.5241655,32.77838341,33.03120449
+Nigeria,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,NGA,34.20100058,35.27707364,36.36592193,37.46754544,38.58194417,39.70911813,40.84906731,42.00179172,43.16729135,44.34556621,45.53661629,46.74044159,47.95704212,49.18641788,50.42856885,51.68349505
+Nigeria,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,NGA,..,..,..,..,..,..,32.0001104,32.13890107,32.27642995,32.4126969,32.54770168,32.68097266,32.81282331,32.9429398,33.07116236,33.19749375
+Nigeria,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,NGA,..,..,..,..,..,..,25.00286057,25.00286057,25.00286057,25.00286057,25.00286057,25.00286057,25.00286057,25.00286057,25.00286057,25.00286057
+Nigeria,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,NGA,..,..,..,..,..,..,40.7745095,40.7745095,40.7745095,40.7745095,40.7745095,40.7745095,40.7745095,40.7745095,40.7745095,40.7745095
+Nigeria,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,NGA,..,..,..,..,50,..,50,..,50,..,50,..,50,..,..,..
+Pakistan,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,PAK,63,59,54,53,52,52,63,64,65,69,72,75,75,75,75,..
+Pakistan,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,PAK,65,60,54,53,52,52,63,64,65,69,72,75,75,75,75,..
+Pakistan,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,PAK,..,..,..,..,52,52,63,64,65,69,72,75,75,75,75,..
+Pakistan,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,PAK,63,58,54,53,52,52,63,64,65,69,72,75,75,75,75,..
+Pakistan,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,PAK,61,59,57,56,56,57,59,63,68,71,75,75,76,73,75,..
+Pakistan,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,PAK,0.59058839,0.48937705,0.66952825,0.56152743,0.56858444,0.57170916,0.6115551,0.67824304,0.70266861,0.698412,0.74002051,0.8632797,0.91669148,1.14399576,1.08106327,..
+Pakistan,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,PAK,0.7,1.25,1,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.63,0.63,..,..,..
+Pakistan,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,PAK,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Pakistan,Number of stillbirths,SH.DTH.STLB,PAK,204631,204854,205464,206083,206320,204648,202505,200818,200410,199859,197845,197426,196154,193816,190483,..
+Pakistan,Number of infant deaths,SH.DTH.IMRT,PAK,384015,381280,378820,376599,374353,371903,369184,366119,362935,359330,355133,350501,345261,339097,331941,323919
+Pakistan,Number of deaths ages 5-9 years,SH.DTH.0509,PAK,33549,24879,24819,24717,24582,24422,24279,24090,23940,23759,23520,23302,23050,22872,22594,22329
+Pakistan,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,PAK,..,..,..,0.061,0.064,0.068,0.073,..,..,..,0.087,..,..,..,..,..
+Pakistan,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,PAK,..,18.4,21.7,19.3,..,..,..,21.68,26.1,23,..,..,..,25,23.4,..
+Pakistan,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,PAK,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Pakistan,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,PAK,..,..,..,..,..,..,7.9,..,..,..,..,..,..,..,..,..
+Pakistan,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,PAK,59.7,59.7,59.6,59.5,59.3,59,58.7,58.2,57.5,56.8,56.1,55.4,54.6,53.8,53,..
+Pakistan,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,PAK,21.1,21.7,22.3,22.9,23.6,24.2,24.9,25.6,26.3,27,27.7,28.4,..,..,..,..
+Pakistan,Adults (ages 15+) living with HIV,SH.DYN.AIDS,PAK,10000,20000,30000,42000,55000,66000,78000,89000,100000,110000,130000,140000,150000,170000,180000,200000
+Pakistan,Children (0-14) living with HIV,SH.HIV.0014,PAK,100,200,200,500,500,650,870,1100,1400,1700,2000,2400,2800,3200,4200,4900
+Pakistan,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,PAK,37.71324258,37.57558911,37.43503167,37.29140151,37.14470037,36.9950616,36.8424667,36.68689376,36.52810071,36.36631784,36.20152413,36.03369828,35.86274126,35.68978668,35.76400171,35.83886904
+Pakistan,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,PAK,95.10836426,94.95185447,94.79541452,94.63904439,94.4827441,94.32651364,94.17035302,94.01426222,93.85824126,93.70229013,93.54640884,93.39059737,93.23485574,93.07918395,92.92358198,92.76804985
+Pakistan,People practicing open defecation (% of population),SH.STA.ODFC.ZS,PAK,30.37402719,28.78047367,27.19422341,25.61568447,24.04485241,22.48142121,20.92544848,19.37698998,17.8366043,16.30377201,14.77854935,13.26099326,11.75133632,10.24708919,8.749029143,7.303359668
+Pakistan,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,PAK,39.77526323,41.78473453,43.77924567,45.75850584,47.72264407,49.67213148,51.60705916,53.52751508,55.43297181,57.32418733,59.20125322,61.06426149,62.91304935,64.75166491,66.57990296,68.39731114
+Pakistan,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,PAK,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Pakistan,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,PAK,25.53202981,27.95734776,30.36602066,32.75804851,35.13343129,37.49216902,39.83426169,42.1597093,44.46851186,46.76066936,49.0361818,51.29504918,53.53727151,55.76284878,57.97178099,60.16406814
+Pakistan,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,PAK,67.44608549,68.40722853,69.37269594,70.34248774,71.31660392,72.29504447,73.2778094,74.26489872,75.25631241,76.25205048,77.25211292,78.25649975,79.26521096,80.27824654,81.2956065,82.31729084
+Pakistan,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,PAK,..,..,51.12891228,51.22024391,51.31157723,51.40335696,51.4955877,54.71970112,57.93038961,61.12845769,64.31381152,67.48635617,70.64573818,73.79560573,76.93463978,80.06123049
+Pakistan,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,PAK,..,..,35.65791991,35.65791991,35.65791991,35.65791991,35.65791991,39.90985399,44.16178807,48.41372215,52.66565622,56.9175903,61.16952438,65.42145846,69.67339254,73.92532662
+Pakistan,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,PAK,..,..,80.64873874,80.64873874,80.64873874,80.64873874,80.64873874,81.73612695,82.82351515,83.91090336,84.99829157,86.08567977,87.17306798,88.26045618,89.34784439,90.43523259
+Pakistan,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,PAK,..,..,..,..,100,..,100,..,100,..,100,..,100,..,..,..
+United States,"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,USA,96,96,96,96,95,95,96,94,94,95,95,95,95,94,94,..
+United States,"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,USA,93,93,93,94,92,92,91,90,91,92,92,93,93,91,91,..
+United States,"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,USA,94,93,93,91,84,90,94,93,93,93,93,93,93,92,91,..
+United States,"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,USA,92,93,93,94,93,93,94,93,93,93,93,94,94,93,93,..
+United States,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,USA,92,92,92,92,90,92,92,91,92,92,92,92,92,92,90,..
+United States,Domestic general government health expenditure (% of GDP),SH.XPD.GHED.GD.ZS,USA,6.62940884,6.80890989,6.9233551,7.25172758,7.87523222,7.94476509,7.92789316,7.90049934,7.94619036,8.23888111,8.45250511,8.55732727,8.51218987,8.47234249,8.52492332,..
+United States,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,USA,3.2,3.18,3.14,3.13,3.08,3.05,2.97,2.93,2.89,2.83,2.8,2.77,2.87,..,..,..
+United States,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,Number of stillbirths,SH.DTH.STLB,USA,12382,12336,12454,12805,12247,12147,11987,11883,11799,11795,11810,11849,11861,11855,11844,..
+United States,Number of infant deaths,SH.DTH.IMRT,USA,27762,27585,27261,26788,26200,25530,24844,24184,23594,23089,22671,22334,22068,21847,21652,21451
+United States,Number of deaths ages 5-9 years,SH.DTH.0509,USA,2809,2714,2631,2564,2507,2452,2406,2387,2393,2413,2437,2454,2452,2432,2400,2363
+United States,"Community health workers (per 1,000 people)",SH.MED.CMHW.P3,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,"Contraceptive prevalence, any modern method (% of married women ages 15-49)",SP.DYN.CONM.ZS,USA,..,..,71.6,..,..,70.4,..,70.1,..,63.1,..,67.7,..,66.1,66.1,..
+United States,"Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)",SP.DYN.CONM.SA.ZS,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,USA,..,..,..,..,..,..,9.4,..,..,..,..,..,..,..,..,..
+United States,Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,USA,5.9,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.9,5.9,6,6.1,..
+United States,Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,USA,61.9,62.5,63.1,63.7,64.2,64.8,65.3,65.8,66.4,66.9,67.4,67.9,..,..,..,..
+United States,Adults (ages 15+) living with HIV,SH.DYN.AIDS,USA,..,..,..,..,..,960000,980000,1000000,1000000,1100000,1100000,1100000,1100000,1200000,1200000,..
+United States,Children (0-14) living with HIV,SH.HIV.0014,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,People using safely managed drinking water services (% of population),SH.H2O.SMDW.ZS,USA,95.23581292,95.24582727,95.2557833,95.2656829,95.27552413,95.46778236,95.65914859,95.84939996,96.03857024,96.22654489,96.41326821,96.59863984,96.78265168,96.96518791,97.14624349,97.32571774
+United States,"People using at least basic drinking water services, urban (% of urban population)",SH.H2O.BASW.UR.ZS,USA,99.69304221,99.69304221,99.69304221,99.69304221,99.69304221,99.71441514,99.73578807,99.75716101,99.77853394,99.79990687,99.82127981,99.84265274,99.86402567,99.8853986,99.90677154,99.92814447
+United States,People practicing open defecation (% of population),SH.STA.ODFC.ZS,USA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+United States,People using at least basic sanitation services (% of population),SH.STA.BASS.ZS,USA,99.8817868,99.88154042,99.88129549,99.8810546,99.88081511,99.86076619,99.84103269,99.82162867,99.80256859,99.78386084,99.7655241,99.74755356,99.72996764,99.71277377,99.69599445,99.67961928
+United States,People using safely managed sanitation services (% of population),SH.STA.SMSS.ZS,USA,97.8283804,97.89264968,97.95699817,98.02142764,98.08593485,98.13517396,98.18494766,98.2352578,98.28612717,98.33755989,98.32452877,98.31176198,98.29928582,98.28709462,98.27522266,98.26364733
+United States,"People using at least basic sanitation services, rural (% of rural population)",SH.STA.BASS.RU.ZS,USA,99.9963302,99.9963302,99.9963302,99.9963302,99.9963302,99.90014735,99.8039645,99.70778165,99.61159879,99.51541594,99.41923309,99.32305024,99.22686738,99.13068453,99.03450168,98.93831882
+United States,"People using at least basic sanitation services, urban  (% of urban population)",SH.STA.BASS.UR.ZS,USA,99.85302032,99.85302032,99.85302032,99.85302032,99.85302032,99.85138983,99.84975935,99.84812887,99.84649839,99.84486791,99.84323742,99.84160694,99.83997646,99.83834598,99.8367155,99.83508502
+United States,People with basic handwashing facilities including soap and water (% of population),SH.STA.HYGN.ZS,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,"People with basic handwashing facilities including soap and water, rural (% of rural population)",SH.STA.HYGN.RU.ZS,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,"People with basic handwashing facilities including soap and water, urban (% of urban population)",SH.STA.HYGN.UR.ZS,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,Maternal leave benefits (% of wages paid in covered period),SH.MMR.WAGE.ZS,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
