@@ -8,7 +8,7 @@ def create_tables():
     """ create tables in the PostgreSQL database"""
     commands = (
         """
-        CREATE TABLE country (
+        CREATE TABLE IF NOT EXISTS country (
             id SERIAL PRIMARY KEY,
             name varchar(255) NOT NULL,
             region varchar(255) NOT NULL,
@@ -20,6 +20,33 @@ def create_tables():
             deathRate float,
             fertilityRate float,
             GDP float
+        )
+        """,
+        """
+        CREATE TABLE IF NOT EXISTS month (
+            MonthKey SERIAL PRIMARY KEY,
+            Name varchar(255) NOT NULL,
+            Quarter integer NOT NULL,
+            Year integer NOT NULL,
+            Decade integer NOT NULL
+        )
+        """,
+        """
+        CREATE TABLE IF NOT EXISTS education (
+            EducationKey SERIAL PRIMARY KEY,
+            primarySchoolEnrollment float,
+            secondarySchoolEnrollment float,
+            femalePrimaryCompletionRate float,
+            malePrimaryCompletionRate float,
+            totalPublicSpendingOnEducation float,
+            adultFemaleLiteracyRate float,
+            adultMaleLiteracyRate float,
+            youthFemaleLiteracyRate float,
+            youthMaleLiteracyRate float,
+            maleChildrenOutOfPrimarySchool integer,
+            femaleChildrenOutOfPrimarySchool integer,
+            femaleAdolescentsOutOfPrimarySchool integer,
+            maleAdolescentsOutOfPrimarySchool integer
         )
         """,
         )
@@ -48,12 +75,11 @@ def load_countries():
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
     with open('parsedCountry.csv', 'r') as f:
-        # Notice that we don't need the `csv` module.
-        next(f) # Skip the header row.
+        next(f)
         cur.copy_from(f, 'country', sep=',')
     conn.commit()
 
 
 if __name__ == '__main__':
-#     create_tables()
-    load_countries()
+    create_tables()
+#     load_countries()
