@@ -9,7 +9,7 @@ def create_tables():
     commands = (
         """
         CREATE TABLE country (
-            countryKey SERIAL PRIMARY KEY,
+            id SERIAL PRIMARY KEY,
             name varchar(255) NOT NULL,
             region varchar(255) NOT NULL,
             continent varchar(255) NOT NULL,
@@ -43,6 +43,17 @@ def create_tables():
         if conn is not None:
             conn.close()
 
+def load_countries():
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    with open('parsedCountry.csv', 'r') as f:
+        # Notice that we don't need the `csv` module.
+        next(f) # Skip the header row.
+        cur.copy_from(f, 'country', sep=',')
+    conn.commit()
+
 
 if __name__ == '__main__':
-    create_tables()
+#     create_tables()
+    load_countries()

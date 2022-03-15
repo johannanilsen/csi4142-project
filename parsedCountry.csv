@@ -1,0 +1,2 @@
+id,name,region,continent,currency,capital,totalPopulation,birthRate,deathRate,fertilityRate,GDP
+1,Argentina,South America, America, ARS, CABA, 45000000, 0.3, 0.1, 0.1, 0.5
