@@ -8,8 +8,35 @@ def create_tables():
     """ create tables in the PostgreSQL database"""
     commands = (
         """
-        CREATE TABLE IF NOT EXISTS country (
-            id SERIAL PRIMARY KEY,
+        DROP TABLE IF EXISTS factTable;
+        """,
+        """
+        DROP TABLE IF EXISTS country;
+        """,
+        """
+        DROP TABLE IF EXISTS country;
+        """,
+        """
+        DROP TABLE IF EXISTS month;
+        """,
+        """
+        DROP TABLE IF EXISTS education;
+        """,
+        """
+        DROP TABLE IF EXISTS health;
+        """,
+        """
+        DROP TABLE IF EXISTS qualityOfLife;
+        """,
+        """
+        DROP TABLE IF EXISTS population;
+        """,
+        """
+        DROP TABLE IF EXISTS event;
+        """,
+        """
+        CREATE TABLE country (
+            countryKey SERIAL PRIMARY KEY,
             name varchar(255) NOT NULL,
             region varchar(255) NOT NULL,
             continent varchar(255) NOT NULL,
@@ -20,20 +47,20 @@ def create_tables():
             deathRate float,
             fertilityRate float,
             GDP float
-        )
+        );
         """,
         """
-        CREATE TABLE IF NOT EXISTS month (
-            MonthKey SERIAL PRIMARY KEY,
-            Name varchar(255) NOT NULL,
-            Quarter integer NOT NULL,
-            Year integer NOT NULL,
-            Decade integer NOT NULL
-        )
+        CREATE TABLE month (
+            monthKey SERIAL PRIMARY KEY,
+            name varchar(255) NOT NULL,
+            quarter integer NOT NULL,
+            year integer NOT NULL,
+            decade integer NOT NULL
+        );
         """,
         """
-        CREATE TABLE IF NOT EXISTS education (
-            EducationKey SERIAL PRIMARY KEY,
+        CREATE TABLE education (
+            educationKey SERIAL PRIMARY KEY,
             primarySchoolEnrollment float,
             secondarySchoolEnrollment float,
             femalePrimaryCompletionRate float,
@@ -47,9 +74,119 @@ def create_tables():
             femaleChildrenOutOfPrimarySchool integer,
             femaleAdolescentsOutOfPrimarySchool integer,
             maleAdolescentsOutOfPrimarySchool integer
-        )
+        );
         """,
-        )
+        """
+        CREATE TABLE health (
+            healthKey SERIAL PRIMARY KEY,
+            domesticHealthExpenditure float,
+            hospitalBeds integer,
+            immunizationDPT float,
+            immunizationHepB3 float,
+            immunizationHib3 float,
+            immunizationPol3 float,
+            immunizationMeasles float,
+            numberOfSurgicalProcedures integer,
+            numberOfDeathInfant integer,
+            numberOfDeathStillbirths integer,
+            numberOfDeathElderly integer,
+            numberOfHealthProfessionals integer,
+            contraceptivePrevalence float,
+            diabetesPrevalence float,
+            prevalenceHIVTotal float,
+            prevalenceOfAnemiaAmongChildren float,
+            prevalenceOfOverweight float,
+            adultsWithHIV float,
+            childrenWithHIV float
+        );
+        """,
+        """
+        CREATE TABLE qualityOfLife (
+            qualityOfLifeKey SERIAL PRIMARY KEY,
+            peopleUsingSafeDrinkingWaterServices integer,
+            peopleUsingBasicDrinkingWaterServices integer,
+            peoplePracticingOpenDefecation integer,
+            peopleUsingBasicSanitationServices integer,
+            peopleUsingSafeSanitationServices integer,
+            ruralPeopleUsingBasicSanitationServices integer,
+            urbanPeopleUsingBasicSanitationServices integer,
+            peopleWithBasicHandwashingFacilities integer,
+            ruralPeopleWithBasicHandwashingFacilities integer,
+            urbanPeopleWithBasicHandwashingFacilities integer,
+            maleUnemploymentRate float,
+            femaleUnemploymentRate float,
+            totalUnemploymentRate float,
+            yearsOfMaternalLeave float
+        );
+        """,
+        """
+        CREATE TABLE population (
+            populationKey SERIAL PRIMARY KEY,
+            femaleLifeExpectancy float,
+            maleLifeExpectancy float,
+            totalLifeExpectancy float,
+            netMigration integer,
+            ageDependencyRatio float,
+            povertyHeadcountRatio float,
+            populationGrowth float,
+            ruralPopulationGrowth float,
+            urbanPopulationGrowth float,
+            populationSize integer,
+            averageAge float,
+            infantMortalityRate float
+        );
+        """,
+        """
+        CREATE TABLE event (
+            eventKey SERIAL PRIMARY KEY,
+            name varchar(255) NOT NULL,
+            description text,
+            startDate date,
+            endDate date,
+            startMonth integer,
+            endMonth integer,
+            outcome text,
+            casualties integer,
+            economicDamage float
+        );
+        """,
+        """
+        CREATE TABLE factTable (
+            key SERIAL PRIMARY KEY,
+            qualityOfLifeIndex float,
+            developmentIndex float,
+            humanDevelopmentIndex float,
+            countryKey SERIAL,
+            monthKey SERIAL,
+            educationKey SERIAL,
+            healthKey SERIAL,
+            qualityOfLifeKey SERIAL,
+            populationKey SERIAL,
+            eventKey SERIAL,
+            CONSTRAINT fk_country
+                  FOREIGN KEY(countryKey)
+            	        REFERENCES country(countryKey),
+            CONSTRAINT fk_month
+                  FOREIGN KEY(monthKey)
+            	        REFERENCES month(monthKey),
+            CONSTRAINT fk_education
+                  FOREIGN KEY(educationKey)
+            	        REFERENCES education(educationKey),
+            CONSTRAINT fk_health
+                  FOREIGN KEY(healthKey)
+            	        REFERENCES health(healthKey),
+            CONSTRAINT fk_qualityOfLife
+                  FOREIGN KEY(qualityOfLifeKey)
+            	        REFERENCES qualityOfLife(qualityOfLifeKey),
+            CONSTRAINT fk_population
+                  FOREIGN KEY(populationKey)
+            	        REFERENCES population(populationKey),
+            CONSTRAINT fk_event
+                  FOREIGN KEY(eventKey)
+            	        REFERENCES event(eventKey)
+        );
+        """,
+    )
     conn = None
     try:
         # read the connection parameters
