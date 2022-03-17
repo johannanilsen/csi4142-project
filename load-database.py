@@ -139,6 +139,7 @@ def create_tables():
         """
         CREATE TABLE event (
             eventKey SERIAL PRIMARY KEY,
+            country varchar(255) NOT NULL,
             name varchar(255) NOT NULL,
             description text,
             startDate date,
@@ -147,7 +148,7 @@ def create_tables():
             endMonth integer,
             outcome text,
             casualties integer,
-            economicDamage float
+            economicDamage varchar(255)
         );
         """,
         """
@@ -216,7 +217,17 @@ def load_countries():
         cur.copy_from(f, 'country', sep=',')
     conn.commit()
 
+def load_events():
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    with open('datasets/events.csv', 'r') as f:
+        next(f)
+        cur.copy_from(f, 'event', sep=';')
+    conn.commit()
+
 
 if __name__ == '__main__':
     create_tables()
-#     load_countries()
+    load_countries()
+    load_events()
