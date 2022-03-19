@@ -1,4 +1,4 @@
-id,name,year,peopleUsingBasicDrinkingWaterServices,peoplePracticingOpenDefecation,peopleUsingBasicSanitationServices,peopleUsingSafeSanitationServices,ruralPeopleUsingBasicSanitationServices,urbanPeopleUsingBasicSanitationServices,peopleWithBasicHandwashingFacilities,ruralPeopleWithBasicHandwashingFacilities,urbanPeopleWithBasicHandwashingFacilities,maleUnemploymentRate,femaleUnemploymentRate,totalUnemploymentRate,yearsOfMaternalLeave
+id,name,year,femaleLifeExpectancy,maleLifeExpectancy,totalLifeExpectancy,netMigration,ageDependencyRatio,povertyHeadcountRatio,populationGrowth,ruralPopulationGrowth,urbanPopulationGrowth,populationSize,averageAge,infantMortalityRate,
 1,Argentina,2005,77.831,71.008,74.451,null,59.1631553,null,1.036268365,-0.664499364,1.226383087,38892924.0,10716.0,null,null
 2,Argentina,2006,77.831,71.008,74.451,null,59.1631553,null,1.036268365,-0.664499364,1.226383087,38892924.0,10716.0,null,null
 3,Argentina,2007,77.831,71.008,74.451,null,59.1631553,null,1.036268365,-0.664499364,1.226383087,38892924.0,10716.0,null,null
