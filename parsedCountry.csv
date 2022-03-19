@@ -1,2 +1,145 @@
-id,name,region,continent,currency,capital,totalPopulation,birthRate,deathRate,fertilityRate,GDP
-1,Argentina,South America,America,ARS,CABA,45000000,0.3,0.1,0.1,0.5
+id,year,name,language,continent,currency,capital,totalPopulation,birthRate,deathRate,fertilityRate,GDP
+1,Argentina,2005,Spanish,South America,Argentine peso,0,17.3511469,18.735,7.775,7.775,198737000000.0
+2,Argentina,2006,Spanish,South America,Argentine peso,0,18.33118672,18.596,7.762,7.762,232557000000.0
+3,Argentina,2007,Spanish,South America,Argentine peso,0,19.51607916,18.469,7.749,7.749,287531000000.0
+4,Argentina,2008,Spanish,South America,Argentine peso,0,19.01016098,18.355,7.735,7.735,361558000000.0
+5,Argentina,2009,Spanish,South America,Argentine peso,0,15.58175264,18.252,7.722,7.722,332976000000.0
+6,Argentina,2010,Spanish,South America,Argentine peso,0,16.64146616,18.154,7.708,7.708,423627000000.0
+7,Argentina,2011,Spanish,South America,Argentine peso,0,17.2482847,18.055,7.694,7.694,530163000000.0
+8,Argentina,2012,Spanish,South America,Argentine peso,0,15.85752542,17.949,7.68,7.68,545982000000.0
+9,Argentina,2013,Spanish,South America,Argentine peso,0,16.28951119,17.831,7.665,7.665,552025000000.0
+10,Argentina,2014,Spanish,South America,Argentine peso,0,15.97995408,17.698,7.651,7.651,526320000000.0
+11,Argentina,2015,Spanish,South America,Argentine peso,0,15.56474508,17.548,7.638,7.638,594749000000.0
+12,Argentina,2016,Spanish,South America,Argentine peso,0,14.27236275,17.383,7.626,7.626,557531000000.0
+13,Argentina,2017,Spanish,South America,Argentine peso,0,15.16219875,17.205,7.616,7.616,643629000000.0
+14,Argentina,2018,Spanish,South America,Argentine peso,0,15.2510495,17.021,7.609,7.609,524820000000.0
+15,Argentina,2019,Spanish,South America,Argentine peso,0,14.03770833,16.833,7.604,7.604,451932000000.0
+16,Argentina,2020,Spanish,South America,Argentine peso,0,13.888347,null,null,null,389288000000.0
+17,Canada,2005,French and English,North America,Canadian dollar,0,21.83742938,10.6,7.1,7.1,1173110000000.0
+18,Canada,2006,French and English,North America,Canadian dollar,0,22.88520314,10.9,7.0,7.0,1319260000000.0
+19,Canada,2007,French and English,North America,Canadian dollar,0,23.33899573,11.2,7.1,7.1,1468820000000.0
+20,Canada,2008,French and English,North America,Canadian dollar,0,23.46901704,11.3,7.2,7.2,1552990000000.0
+21,Canada,2009,French and English,North America,Canadian dollar,0,22.30696975,11.3,7.1,7.1,1374630000000.0
+22,Canada,2010,French and English,North America,Canadian dollar,0,23.46123696,11.1,7.0,7.0,1617340000000.0
+23,Canada,2011,French and English,North America,Canadian dollar,0,23.5104954,11.0,7.1,7.1,1793330000000.0
+24,Canada,2012,French and English,North America,Canadian dollar,0,24.49418648,11.0,7.1,7.1,1828370000000.0
+25,Canada,2013,French and English,North America,Canadian dollar,0,24.18721208,10.8,7.2,7.2,1846600000000.0
+26,Canada,2014,French and English,North America,Canadian dollar,0,24.38932937,10.8,7.3,7.3,1805750000000.0
+27,Canada,2015,French and English,North America,Canadian dollar,0,23.85058193,10.7,7.4,7.4,1556510000000.0
+28,Canada,2016,French and English,North America,Canadian dollar,0,22.77237646,10.6,7.4,7.4,1527990000000.0
+29,Canada,2017,French and English,North America,Canadian dollar,0,22.69633255,10.3,7.5,7.5,1649270000000.0
+30,Canada,2018,French and English,North America,Canadian dollar,0,22.51470699,10.1,7.7,7.7,1725330000000.0
+31,Canada,2019,French and English,North America,Canadian dollar,0,22.27803992,9.9,7.6,7.6,1742020000000.0
+32,Canada,2020,French and English,North America,Canadian dollar,0,23.26247845,null,null,null,1645420000000.0
+33,United States,2005,French and English,North America,U.S. Dollar,0,22.93913882,14.0,8.3,8.3,13036600000000.0
+34,United States,2006,French and English,North America,U.S. Dollar,0,23.03979392,14.3,8.1,8.1,13814600000000.0
+35,United States,2007,French and English,North America,U.S. Dollar,0,22.35756713,14.3,8.0,8.0,14451900000000.0
+36,United States,2008,French and English,North America,U.S. Dollar,0,21.31776822,14.0,8.1,8.1,14712800000000.0
+37,United States,2009,French and English,North America,U.S. Dollar,0,18.848063,13.5,7.9,7.9,14448900000000.0
+38,United States,2010,French and English,North America,U.S. Dollar,0,18.38346656,13.0,7.995,7.995,14992100000000.0
+39,United States,2011,French and English,North America,U.S. Dollar,0,18.80587903,12.7,8.073,8.073,15542600000000.0
+40,United States,2012,French and English,North America,U.S. Dollar,0,19.58122838,12.6,8.102,8.102,16197000000000.0
+41,United States,2013,French and English,North America,U.S. Dollar,0,19.79097912,12.4,8.215,8.215,16784800000000.0
+42,United States,2014,French and English,North America,U.S. Dollar,0,20.32719077,12.5,8.237,8.237,17527200000000.0
+43,United States,2015,French and English,North America,U.S. Dollar,0,20.41297097,12.4,8.44,8.44,18238300000000.0
+44,United States,2016,French and English,North America,U.S. Dollar,0,20.31852559,12.2,8.493,8.493,18745100000000.0
+45,United States,2017,French and English,North America,U.S. Dollar,0,20.57140297,11.8,8.638,8.638,19543000000000.0
+46,United States,2018,French and English,North America,U.S. Dollar,0,20.77289389,11.6,8.678,8.678,20611900000000.0
+47,United States,2019,French and English,North America,U.S. Dollar,0,20.96103626,11.4,8.7,8.7,21433200000000.0
+48,United States,2020,French and English,North America,U.S. Dollar,0,21.37610646,null,null,null,20953000000000.0
+49,Mali,2005,French,Africa,West African CFA franc,0,20.24107066,48.444,15.112,15.112,6247496491.0
+50,Mali,2006,French,Africa,West African CFA franc,0,20.20712133,48.191,14.492,14.492,6905876385.0
+51,Mali,2007,French,Africa,West African CFA franc,0,20.49818121,47.853,13.916,13.916,8156532186.0
+52,Mali,2008,French,Africa,West African CFA franc,0,23.03287468,47.434,13.387,13.387,9838404005.0
+53,Mali,2009,French,Africa,West African CFA franc,0,20.2112848,46.939,12.91,12.91,10232036863.0
+54,Mali,2010,French,Africa,West African CFA franc,0,20.77445023,46.379,12.481,12.481,10689167195.0
+55,Mali,2011,French,Africa,West African CFA franc,0,18.65661734,45.769,12.09,12.09,12995113407.0
+56,Mali,2012,French,Africa,West African CFA franc,0,14.81874453,45.129,11.72,11.72,12442036265.0
+57,Mali,2013,French,Africa,West African CFA franc,0,17.12753954,44.482,11.358,11.358,13242691430.0
+58,Mali,2014,French,Africa,West African CFA franc,0,17.910166,43.843,11.001,11.001,14364937997.0
+59,Mali,2015,French,Africa,West African CFA franc,0,18.35565181,43.226,10.649,10.649,13104764334.0
+60,Mali,2016,French,Africa,West African CFA franc,0,18.5852839,42.638,10.307,10.307,14026048691.0
+61,Mali,2017,French,Africa,West African CFA franc,0,18.24986088,42.078,9.984,9.984,15365714371.0
+62,Mali,2018,French,Africa,West African CFA franc,0,18.69789111,41.543,9.686,9.686,17070866299.0
+63,Mali,2019,French,Africa,West African CFA franc,0,20.04255437,41.035,9.412,9.412,17280251194.0
+64,Mali,2020,French,Africa,West African CFA franc,0,19.86350827,null,null,null,17465392916.0
+65,Mexico,2005,Spanish,North America,Mexican peso,0,20.70370715,21.741,4.792,4.792,877476000000.0
+66,Mexico,2006,Spanish,North America,Mexican peso,0,21.5433381,21.343,4.869,4.869,975387000000.0
+67,Mexico,2007,Spanish,North America,Mexican peso,0,21.94190503,20.973,4.961,4.961,1052700000000.0
+68,Mexico,2008,Spanish,North America,Mexican peso,0,23.1643912,20.635,5.06,5.06,1109990000000.0
+69,Mexico,2009,Spanish,North America,Mexican peso,0,22.12647405,20.327,5.163,5.163,900045000000.0
+70,Mexico,2010,Spanish,North America,Mexican peso,0,21.58270056,20.042,5.266,5.266,1057800000000.0
+71,Mexico,2011,Spanish,North America,Mexican peso,0,22.27391475,19.766,5.369,5.369,1180490000000.0
+72,Mexico,2012,Spanish,North America,Mexican peso,0,22.84043716,19.488,5.471,5.471,1201090000000.0
+73,Mexico,2013,Spanish,North America,Mexican peso,0,21.25246524,19.198,5.572,5.572,1274440000000.0
+74,Mexico,2014,Spanish,North America,Mexican peso,0,20.99785741,18.892,5.67,5.67,1315350000000.0
+75,Mexico,2015,Spanish,North America,Mexican peso,0,22.43070878,18.573,5.763,5.763,1171870000000.0
+76,Mexico,2016,Spanish,North America,Mexican peso,0,22.80225729,18.245,5.851,5.851,1078490000000.0
+77,Mexico,2017,Spanish,North America,Mexican peso,0,22.09216898,17.918,5.933,5.933,1158910000000.0
+78,Mexico,2018,Spanish,North America,Mexican peso,0,22.01557247,17.602,6.01,6.01,1222410000000.0
+79,Mexico,2019,Spanish,North America,Mexican peso,0,20.61320294,17.297,6.082,6.082,1269430000000.0
+80,Mexico,2020,Spanish,North America,Mexican peso,0,18.77681318,null,null,null,1073920000000.0
+81,Niger,2005,French,Africa,West African CFA franc,0,18.22108819,51.82,14.296,14.296,4383315657.0
+82,Niger,2006,French,Africa,West African CFA franc,0,19.02365022,51.428,13.683,13.683,4756361480.0
+83,Niger,2007,French,Africa,West African CFA franc,0,18.80510786,51.029,13.073,13.073,5731485267.0
+84,Niger,2008,French,Africa,West African CFA franc,0,25.52193999,50.625,12.477,12.477,7297600897.0
+85,Niger,2009,French,Africa,West African CFA franc,0,28.42993118,50.217,11.901,11.901,7352131669.0
+86,Niger,2010,French,Africa,West African CFA franc,0,31.87047036,49.802,11.353,11.353,7851191899.0
+87,Niger,2011,French,Africa,West African CFA franc,0,31.56276892,49.374,10.838,10.838,8772951262.0
+88,Niger,2012,French,Africa,West African CFA franc,0,28.80514017,48.929,10.359,10.359,9426913349.0
+89,Niger,2013,French,Africa,West African CFA franc,0,29.59487921,48.466,9.916,9.916,10224897935.0
+90,Niger,2014,French,Africa,West African CFA franc,0,30.78425958,47.988,9.511,9.511,10862944204.0
+91,Niger,2015,French,Africa,West African CFA franc,0,32.6070143,47.502,9.145,9.145,9683867894.0
+92,Niger,2016,French,Africa,West African CFA franc,0,27.01088078,47.017,8.82,8.82,10398862245.0
+93,Niger,2017,French,Africa,West African CFA franc,0,25.79503947,46.54,8.529,8.529,11185102400.0
+94,Niger,2018,French,Africa,West African CFA franc,0,28.49049783,46.079,8.268,8.268,12808660528.0
+95,Niger,2019,French,Africa,West African CFA franc,0,30.31499033,45.637,8.033,8.033,12916455161.0
+96,Niger,2020,French,Africa,West African CFA franc,0,31.06513594,null,null,null,13741378450.0
+97,Nigeria,2005,English,Africa,Nigerian naira,0,24.96612489,42.537,16.267,16.267,176134000000.0
+98,Nigeria,2006,English,Africa,Nigerian naira,0,26.1664999,42.333,15.836,15.836,236104000000.0
+99,Nigeria,2007,English,Africa,Nigerian naira,0,20.18003679,42.111,15.409,15.409,275626000000.0
+100,Nigeria,2008,English,Africa,Nigerian naira,0,18.85976721,41.874,15.002,15.002,339476000000.0
+101,Nigeria,2009,English,Africa,Nigerian naira,0,21.11545461,41.62,14.622,14.622,295009000000.0
+102,Nigeria,2010,English,Africa,Nigerian naira,0,16.81501324,41.341,14.27,14.27,361457000000.0
+103,Nigeria,2011,English,Africa,Nigerian naira,0,15.67631067,41.025,13.942,13.942,404994000000.0
+104,Nigeria,2012,English,Africa,Nigerian naira,0,14.21112008,40.668,13.623,13.623,455502000000.0
+105,Nigeria,2013,English,Africa,Nigerian naira,0,14.16872621,40.267,13.307,13.307,508693000000.0
+106,Nigeria,2014,English,Africa,Nigerian naira,0,15.08353336,39.828,12.994,12.994,546676000000.0
+107,Nigeria,2015,English,Africa,Nigerian naira,0,14.82717543,39.359,12.686,12.686,486803000000.0
+108,Nigeria,2016,English,Africa,Nigerian naira,0,14.72495522,38.873,12.39,12.39,404650000000.0
+109,Nigeria,2017,English,Africa,Nigerian naira,0,14.71561664,38.384,12.114,12.114,375746000000.0
+110,Nigeria,2018,English,Africa,Nigerian naira,0,19.01838355,37.905,11.86,11.86,397190000000.0
+111,Nigeria,2019,English,Africa,Nigerian naira,0,24.62523429,37.446,11.63,11.63,448120000000.0
+112,Nigeria,2020,English,Africa,Nigerian naira,0,28.64594369,null,null,null,432294000000.0
+113,Ethiopia,2005,Amharic,Africa,Ethiopian birr,0,null,39.307,11.126,11.126,12401139454.0
+114,Ethiopia,2006,Amharic,Africa,Ethiopian birr,0,null,38.485,10.517,10.517,15280861835.0
+115,Ethiopia,2007,Amharic,Africa,Ethiopian birr,0,null,37.726,9.932,9.932,19707616773.0
+116,Ethiopia,2008,Amharic,Africa,Ethiopian birr,0,null,37.035,9.383,9.383,27066912635.0
+117,Ethiopia,2009,Amharic,Africa,Ethiopian birr,0,null,36.414,8.883,8.883,32437389116.0
+118,Ethiopia,2010,Amharic,Africa,Ethiopian birr,0,null,35.861,8.441,8.441,29933790334.0
+119,Ethiopia,2011,Amharic,Africa,Ethiopian birr,0,32.10766647,35.369,8.06,8.06,31952763089.0
+120,Ethiopia,2012,Amharic,Africa,Ethiopian birr,0,37.09796197,34.916,7.734,7.734,43310721414.0
+121,Ethiopia,2013,Amharic,Africa,Ethiopian birr,0,34.08111832,34.483,7.455,7.455,47648211133.0
+122,Ethiopia,2014,Amharic,Africa,Ethiopian birr,0,37.9937253,34.059,7.218,7.218,55612228234.0
+123,Ethiopia,2015,Amharic,Africa,Ethiopian birr,0,40.67127298,33.635,7.017,7.017,64589334979.0
+124,Ethiopia,2016,Amharic,Africa,Ethiopian birr,0,37.3487737,33.207,6.844,6.844,74296618481.0
+125,Ethiopia,2017,Amharic,Africa,Ethiopian birr,0,38.44398637,32.775,6.691,6.691,81770791971.0
+126,Ethiopia,2018,Amharic,Africa,Ethiopian birr,0,34.72881719,32.339,6.551,6.551,84269348327.0
+127,Ethiopia,2019,Amharic,Africa,Ethiopian birr,0,35.26398392,31.896,6.418,6.418,95912590628.0
+128,Ethiopia,2020,Amharic,Africa,Ethiopian birr,0,30.75215397,null,null,null,107645000000.0
+129,Pakistan,2005,English and Urdu,Asia,Pakistani rupee,0,16.1222386,31.755,8.149,8.149,120055000000.0
+130,Pakistan,2006,English and Urdu,Asia,Pakistani rupee,0,17.73199402,31.332,8.034,8.034,137264000000.0
+131,Pakistan,2007,English and Urdu,Asia,Pakistani rupee,0,17.18706472,30.96,7.92,7.92,152386000000.0
+132,Pakistan,2008,English and Urdu,Asia,Pakistani rupee,0,17.60584829,30.631,7.804,7.804,170078000000.0
+133,Pakistan,2009,English and Urdu,Asia,Pakistani rupee,0,15.94948282,30.339,7.686,7.686,168153000000.0
+134,Pakistan,2010,English and Urdu,Asia,Pakistani rupee,0,14.20455753,30.082,7.568,7.568,177166000000.0
+135,Pakistan,2011,English and Urdu,Asia,Pakistani rupee,0,12.52062765,29.86,7.454,7.454,213587000000.0
+136,Pakistan,2012,English and Urdu,Asia,Pakistani rupee,0,13.4759584,29.667,7.349,7.349,224384000000.0
+137,Pakistan,2013,English and Urdu,Asia,Pakistani rupee,0,13.35732977,29.491,7.257,7.257,231219000000.0
+138,Pakistan,2014,English and Urdu,Asia,Pakistani rupee,0,13.03527124,29.318,7.176,7.176,244361000000.0
+139,Pakistan,2015,English and Urdu,Asia,Pakistani rupee,0,14.10703213,29.124,7.107,7.107,270556000000.0
+140,Pakistan,2016,English and Urdu,Asia,Pakistani rupee,0,14.08612456,28.888,7.048,7.048,278655000000.0
+141,Pakistan,2017,English and Urdu,Asia,Pakistani rupee,0,14.55053518,28.599,6.994,6.994,304567000000.0
+142,Pakistan,2018,English and Urdu,Asia,Pakistani rupee,0,15.74249323,28.25,6.942,6.942,314568000000.0
+143,Pakistan,2019,English and Urdu,Asia,Pakistani rupee,0,14.03492212,27.841,6.893,6.893,279057000000.0
+144,Pakistan,2020,English and Urdu,Asia,Pakistani rupee,0,13.72762116,null,null,null,262610000000.0
