@@ -81,6 +81,8 @@ def create_tables():
         """
         CREATE TABLE health (
             healthKey SERIAL PRIMARY KEY,
+            country varchar(255),
+            year integer,
             domesticHealthExpenditure float,
             hospitalBeds integer,
             immunizationDPT float,
@@ -93,9 +95,9 @@ def create_tables():
             numberOfDeathStillbirths integer,
             numberOfDeathElderly integer,
             numberOfHealthProfessionals integer,
-            contraceptivePrevalence float,
+            contraceptivePrevalenceMarried float,
+            contraceptivePrevalenceUnmarried float,
             diabetesPrevalence float,
-            prevalenceHIVTotal float,
             prevalenceOfAnemiaAmongChildren float,
             prevalenceOfOverweight float,
             adultsWithHIV float,
