@@ -1,7 +1,7 @@
 import csv
 external_info = {"Argentina": ["Spanish", "South America", "Argentine peso", "Buenos Aires"],
                  "Canada": ["French and English", "North America", "Canadian dollar", "Ottawa"],
-                 "United States": ["French and English", "North America", "U.S. Dollar", "Washington, D.C."],
+                 "United States": ["French and English", "North America", "U.S. Dollar", "Washington D.C."],
                  "Mali": ["French", "Africa", "West African CFA franc", "Bamako"],
                  "Mexico": ["Spanish", "North America", "Mexican peso", "Mexico City"],
                  "Niger": ["French", "Africa", "West African CFA franc", "Niamey"],
@@ -87,7 +87,7 @@ with open('../datasets/country.csv') as csv_file:
         line_count += 1
 
 
-with open('../parsedCountry.csv', mode='w') as country_file:
+with open('../parsedDataset/parsedCountry.csv', mode='w') as country_file:
     country_writer = csv.writer(
         country_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     country_writer.writerow(["id", "year", "name", "language", "continent", "currency",

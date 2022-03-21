@@ -38,15 +38,16 @@ def create_tables():
         CREATE TABLE country (
             countryKey SERIAL PRIMARY KEY,
             name varchar(255) NOT NULL,
-            region varchar(255) NOT NULL,
+            year integer NOT NULL,
+            language varchar(255) NOT NULL,
             continent varchar(255) NOT NULL,
             currency varchar(255),
             capital varchar(255) NOT NULL,
-            totalPopulation integer,
-            birthRate float,
-            deathRate float,
-            fertilityRate float,
-            GDP float
+            population varchar(255),
+            birthRate varchar(255),
+            deathRate varchar(255),
+            fertilityRate varchar(255),
+            GDP varchar(255)
         );
         """,
         """
@@ -61,19 +62,20 @@ def create_tables():
         """
         CREATE TABLE education (
             educationKey SERIAL PRIMARY KEY,
-            primarySchoolEnrollment float,
-            secondarySchoolEnrollment float,
-            femalePrimaryCompletionRate float,
-            malePrimaryCompletionRate float,
-            totalPublicSpendingOnEducation float,
-            adultFemaleLiteracyRate float,
-            adultMaleLiteracyRate float,
-            youthFemaleLiteracyRate float,
-            youthMaleLiteracyRate float,
-            maleChildrenOutOfPrimarySchool integer,
-            femaleChildrenOutOfPrimarySchool integer,
-            femaleAdolescentsOutOfPrimarySchool integer,
-            maleAdolescentsOutOfPrimarySchool integer
+            country varchar(255),
+            year integer NOT NULL,
+            primarySchoolEnrollment varchar(255),
+            secondarySchoolEnrollment varchar(255),
+            femalePrimaryCompletionRate varchar(255),
+            malePrimaryCompletionRate varchar(255),
+            adultFemaleLiteracyRate varchar(255),
+            adultMaleLiteracyRate varchar(255),
+            youthFemaleLiteracyRate varchar(255),
+            youthMaleLiteracyRate varchar(255),
+            maleChildrenOutOfPrimarySchool varchar(255),
+            femaleChildrenOutOfPrimarySchool varchar(255),
+            femaleAdolescentsOutOfPrimarySchool varchar(255),
+            maleAdolescentsOutOfPrimarySchool varchar(255)
         );
         """,
         """
@@ -103,35 +105,37 @@ def create_tables():
         """
         CREATE TABLE qualityOfLife (
             qualityOfLifeKey SERIAL PRIMARY KEY,
-            peopleUsingSafeDrinkingWaterServices integer,
-            peopleUsingBasicDrinkingWaterServices integer,
-            peoplePracticingOpenDefecation integer,
-            peopleUsingBasicSanitationServices integer,
-            peopleUsingSafeSanitationServices integer,
-            ruralPeopleUsingBasicSanitationServices integer,
-            urbanPeopleUsingBasicSanitationServices integer,
-            peopleWithBasicHandwashingFacilities integer,
-            ruralPeopleWithBasicHandwashingFacilities integer,
-            urbanPeopleWithBasicHandwashingFacilities integer,
-            maleUnemploymentRate float,
-            femaleUnemploymentRate float,
-            totalUnemploymentRate float,
-            yearsOfMaternalLeave float
+            country varchar(255),
+            year integer,
+            peopleUsingBasicDrinkingWaterServices varchar(255),
+            peoplePracticingOpenDefecation varchar(255),
+            peopleUsingBasicSanitationServices varchar(255),
+            peopleUsingSafeSanitationServices varchar(255),
+            ruralPeopleUsingBasicSanitationServices varchar(255),
+            urbanPeopleUsingBasicSanitationServices varchar(255),
+            peopleWithBasicHandwashingFacilities varchar(255),
+            ruralPeopleWithBasicHandwashingFacilities varchar(255),
+            urbanPeopleWithBasicHandwashingFacilities varchar(255),
+            maleUnemploymentRate varchar(255),
+            femaleUnemploymentRate varchar(255),
+            totalUnemploymentRate varchar(255),
+            yearsOfMaternalLeave varchar(255)
         );
         """,
         """
         CREATE TABLE population (
             populationKey SERIAL PRIMARY KEY,
+            country varchar(255),
             femaleLifeExpectancy float,
             maleLifeExpectancy float,
             totalLifeExpectancy float,
-            netMigration integer,
-            ageDependencyRatio float,
+            netMigration float,
+            ageDependencyRatio varchar(255),
             povertyHeadcountRatio float,
-            populationGrowth float,
-            ruralPopulationGrowth float,
-            urbanPopulationGrowth float,
-            populationSize integer,
+            populationGrowth varchar(255),
+            ruralPopulationGrowth varchar(255),
+            urbanPopulationGrowth varchar(255),
+            populationSize float,
             averageAge float,
             infantMortalityRate float
         );
@@ -212,16 +216,52 @@ def load_countries():
     params = config()
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
-    with open('parsedCountry.csv', 'r') as f:
+    with open('parsedDataset/parsedCountry.csv', 'r') as f:
         next(f)
         cur.copy_from(f, 'country', sep=',')
+    conn.commit()
+
+def load_education():
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    with open('parsedDataset/parsedEducation.csv', 'r') as f:
+        next(f)
+        cur.copy_from(f, 'education', sep=',')
+    conn.commit()
+
+def load_month():
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    with open('parsedDataset/parsedMonth.csv', 'r') as f:
+        next(f)
+        cur.copy_from(f, 'month', sep=',')
+    conn.commit()
+
+def load_population():
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    with open('parsedDataset/parsedPopulation.csv', 'r') as f:
+        next(f)
+        cur.copy_from(f, 'population', sep=',')
+    conn.commit()
+
+def load_qualityOfLife():
+    params = config()
+    conn = psycopg2.connect(**params)
+    cur = conn.cursor()
+    with open('parsedDataset/parsedQualityOfLife.csv', 'r') as f:
+        next(f)
+        cur.copy_from(f, 'qualityoflife', sep=',')
     conn.commit()
 
 def load_events():
     params = config()
     conn = psycopg2.connect(**params)
     cur = conn.cursor()
-    with open('datasets/events.csv', 'r') as f:
+    with open('parsedDataset/parsedEvents.csv', 'r') as f:
         next(f)
         cur.copy_from(f, 'event', sep=';')
     conn.commit()
@@ -230,4 +270,8 @@ def load_events():
 if __name__ == '__main__':
     create_tables()
     load_countries()
+    load_education()
+    load_month()
+    load_population()
+    load_qualityOfLife()
     load_events()

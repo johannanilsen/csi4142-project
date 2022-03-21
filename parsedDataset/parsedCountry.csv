@@ -1,4 +1,4 @@
-id,year,name,language,continent,currency,capital,totalPopulation,birthRate,deathRate,fertilityRate,GDP
+id,name,year,language,continent,currency,capital,totalPopulation,birthRate,deathRate,fertilityRate,GDP
 1,Argentina,2005,Spanish,South America,Argentine peso,Buenos Aires,17.3511469,18.735,7.775,7.775,198737000000.0
 2,Argentina,2006,Spanish,South America,Argentine peso,Buenos Aires,18.33118672,18.596,7.762,7.762,232557000000.0
 3,Argentina,2007,Spanish,South America,Argentine peso,Buenos Aires,19.51607916,18.469,7.749,7.749,287531000000.0
@@ -31,22 +31,22 @@ id,year,name,language,continent,currency,capital,totalPopulation,birthRate,death
 30,Canada,2018,French and English,North America,Canadian dollar,Ottawa,22.51470699,10.1,7.7,7.7,1725330000000.0
 31,Canada,2019,French and English,North America,Canadian dollar,Ottawa,22.27803992,9.9,7.6,7.6,1742020000000.0
 32,Canada,2020,French and English,North America,Canadian dollar,Ottawa,23.26247845,null,null,null,1645420000000.0
-33,United States,2005,French and English,North America,U.S. Dollar,"Washington, D.C.",22.93913882,14.0,8.3,8.3,13036600000000.0
-34,United States,2006,French and English,North America,U.S. Dollar,"Washington, D.C.",23.03979392,14.3,8.1,8.1,13814600000000.0
-35,United States,2007,French and English,North America,U.S. Dollar,"Washington, D.C.",22.35756713,14.3,8.0,8.0,14451900000000.0
-36,United States,2008,French and English,North America,U.S. Dollar,"Washington, D.C.",21.31776822,14.0,8.1,8.1,14712800000000.0
-37,United States,2009,French and English,North America,U.S. Dollar,"Washington, D.C.",18.848063,13.5,7.9,7.9,14448900000000.0
-38,United States,2010,French and English,North America,U.S. Dollar,"Washington, D.C.",18.38346656,13.0,7.995,7.995,14992100000000.0
-39,United States,2011,French and English,North America,U.S. Dollar,"Washington, D.C.",18.80587903,12.7,8.073,8.073,15542600000000.0
-40,United States,2012,French and English,North America,U.S. Dollar,"Washington, D.C.",19.58122838,12.6,8.102,8.102,16197000000000.0
-41,United States,2013,French and English,North America,U.S. Dollar,"Washington, D.C.",19.79097912,12.4,8.215,8.215,16784800000000.0
-42,United States,2014,French and English,North America,U.S. Dollar,"Washington, D.C.",20.32719077,12.5,8.237,8.237,17527200000000.0
-43,United States,2015,French and English,North America,U.S. Dollar,"Washington, D.C.",20.41297097,12.4,8.44,8.44,18238300000000.0
-44,United States,2016,French and English,North America,U.S. Dollar,"Washington, D.C.",20.31852559,12.2,8.493,8.493,18745100000000.0
-45,United States,2017,French and English,North America,U.S. Dollar,"Washington, D.C.",20.57140297,11.8,8.638,8.638,19543000000000.0
-46,United States,2018,French and English,North America,U.S. Dollar,"Washington, D.C.",20.77289389,11.6,8.678,8.678,20611900000000.0
-47,United States,2019,French and English,North America,U.S. Dollar,"Washington, D.C.",20.96103626,11.4,8.7,8.7,21433200000000.0
-48,United States,2020,French and English,North America,U.S. Dollar,"Washington, D.C.",21.37610646,null,null,null,20953000000000.0
+33,United States,2005,French and English,North America,U.S. Dollar,"Washington D.C.",22.93913882,14.0,8.3,8.3,13036600000000.0
+34,United States,2006,French and English,North America,U.S. Dollar,"Washington D.C.",23.03979392,14.3,8.1,8.1,13814600000000.0
+35,United States,2007,French and English,North America,U.S. Dollar,"Washington D.C.",22.35756713,14.3,8.0,8.0,14451900000000.0
+36,United States,2008,French and English,North America,U.S. Dollar,"Washington D.C.",21.31776822,14.0,8.1,8.1,14712800000000.0
+37,United States,2009,French and English,North America,U.S. Dollar,"Washington D.C.",18.848063,13.5,7.9,7.9,14448900000000.0
+38,United States,2010,French and English,North America,U.S. Dollar,"Washington D.C.",18.38346656,13.0,7.995,7.995,14992100000000.0
+39,United States,2011,French and English,North America,U.S. Dollar,"Washington D.C.",18.80587903,12.7,8.073,8.073,15542600000000.0
+40,United States,2012,French and English,North America,U.S. Dollar,"Washington D.C.",19.58122838,12.6,8.102,8.102,16197000000000.0
+41,United States,2013,French and English,North America,U.S. Dollar,"Washington D.C.",19.79097912,12.4,8.215,8.215,16784800000000.0
+42,United States,2014,French and English,North America,U.S. Dollar,"Washington D.C.",20.32719077,12.5,8.237,8.237,17527200000000.0
+43,United States,2015,French and English,North America,U.S. Dollar,"Washington D.C.",20.41297097,12.4,8.44,8.44,18238300000000.0
+44,United States,2016,French and English,North America,U.S. Dollar,"Washington D.C.",20.31852559,12.2,8.493,8.493,18745100000000.0
+45,United States,2017,French and English,North America,U.S. Dollar,"Washington D.C.",20.57140297,11.8,8.638,8.638,19543000000000.0
+46,United States,2018,French and English,North America,U.S. Dollar,"Washington D.C.",20.77289389,11.6,8.678,8.678,20611900000000.0
+47,United States,2019,French and English,North America,U.S. Dollar,"Washington D.C.",20.96103626,11.4,8.7,8.7,21433200000000.0
+48,United States,2020,French and English,North America,U.S. Dollar,"Washington D.C.",21.37610646,null,null,null,20953000000000.0
 49,Mali,2005,French,Africa,West African CFA franc,Bamako,20.24107066,48.444,15.112,15.112,6247496491.0
 50,Mali,2006,French,Africa,West African CFA franc,Bamako,20.20712133,48.191,14.492,14.492,6905876385.0
 51,Mali,2007,French,Africa,West African CFA franc,Bamako,20.49818121,47.853,13.916,13.916,8156532186.0

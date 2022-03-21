@@ -2,14 +2,14 @@ import csv
 
 
 parsed = []
-with open('datasets/population.csv') as csv_file:
+with open('../datasets/population.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 1
     key = 1
     i = 0
     for row in csv_reader:
         if i == 1:
-            country = [["null" for i in range(16)] for i in range(16)]
+            country = [["null" for i in range(14)] for i in range(14)]
             year = 2005
             country_name = row[0]
 
@@ -39,12 +39,12 @@ with open('datasets/population.csv') as csv_file:
 
             i += 1
 
-with open('parsedPopulation.csv', mode='w') as population_file:
+with open('../parsedDataset/parsedPopulation.csv', mode='w') as population_file:
     population_writer = csv.writer(
         population_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    population_writer.writerow(["id", "name", "year", "femaleLifeExpectancy", "maleLifeExpectancy", "totalLifeExpectancy",
+    population_writer.writerow(["id", "country", "year", "femaleLifeExpectancy", "maleLifeExpectancy", "totalLifeExpectancy",
                                 "netMigration", "ageDependencyRatio", "povertyHeadcountRatio", "populationGrowth", "ruralPopulationGrowth",
-                                "urbanPopulationGrowth", "populationSize", "averageAge", "infantMortalityRate", ""])
+                                "urbanPopulationGrowth", "populationSize", "averageAge", "infantMortalityRate"])
     for country in parsed:
         for row in country:
             population_writer.writerow(row)

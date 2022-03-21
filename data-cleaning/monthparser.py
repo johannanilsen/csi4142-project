@@ -13,26 +13,26 @@ while year < 2021:
         m.append(id)
         m.append(month)
         if month == "January" or month == "February" or month == "March":
-            m.append("Q1")
+            m.append(1)
         elif month == "April" or month == "May" or month == "June":
-            m.append("Q2")
+            m.append(2)
         elif month == "July" or month == "August" or month == "September":
-            m.append("Q3")
+            m.append(3)
         else:
-            m.append("Q4")
+            m.append(4)
         m.append(year)
         if year < 2010:
-            m.append("2000s")
+            m.append("2000")
         elif year < 2020:
-            m.append("2010s")
+            m.append("2010")
         else:
-            m.append("2020s")
+            m.append("2020")
         parsed.append(m)
 
     year += 1
 
 
-with open('../parsedMonth.csv', mode='w') as month_file:
+with open('../parsedDataset/parsedMonth.csv', mode='w') as month_file:
     month_writer = csv.writer(
         month_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     month_writer.writerow(["id", "name", "quater", "year", "decade"])

@@ -4,7 +4,7 @@ import csv
 
 
 parsed = []
-with open('datasets/health_and_quality_of_life.csv') as csv_file:
+with open('../datasets/health_and_quality_of_life.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 1
     key = 1
@@ -141,7 +141,7 @@ with open('datasets/health_and_quality_of_life.csv') as csv_file:
 
         line_count += 1
 
-with open('datasets/unemployment.csv') as csv_file:
+with open('../datasets/unemployment.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 1
     country_index = 0
@@ -175,10 +175,10 @@ with open('datasets/unemployment.csv') as csv_file:
                 country_index += 1
         line_count += 1
 
-with open('parsedQualityOfLife.csv', mode='w') as QOF_file:
+with open('../parsedDataset/parsedQualityOfLife.csv', mode='w') as QOF_file:
     QOL_writer = csv.writer(
         QOF_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    QOL_writer.writerow(["id", "name", "year", "peopleUsingBasicDrinkingWaterServices", "peoplePracticingOpenDefecation", "peopleUsingBasicSanitationServices",
+    QOL_writer.writerow(["id", "country", "year", "peopleUsingBasicDrinkingWaterServices", "peoplePracticingOpenDefecation", "peopleUsingBasicSanitationServices",
                          "peopleUsingSafeSanitationServices", "ruralPeopleUsingBasicSanitationServices", "urbanPeopleUsingBasicSanitationServices", "peopleWithBasicHandwashingFacilities", "ruralPeopleWithBasicHandwashingFacilities",
                          "urbanPeopleWithBasicHandwashingFacilities", "maleUnemploymentRate", "femaleUnemploymentRate", "totalUnemploymentRate", "yearsOfMaternalLeave"])
     for country in parsed:

@@ -2,7 +2,7 @@ import csv
 
 
 parsed = []
-with open('datasets/education.csv') as csv_file:
+with open('../datasets/education.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 1
     key = 1
@@ -55,7 +55,7 @@ with open('datasets/education.csv') as csv_file:
         if line_count % 13 == 5:
             malePrimaryCompletionRate_index = 0
             for c in country:
-                # Primary completion rate, female (% of relevant age group)
+                # Primary completion rate, male (% of relevant age group)
                 malePrimaryCompletionRate = row[malePrimaryCompletionRate_index+4]
                 malePrimaryCompletionRate_index += 1
                 if malePrimaryCompletionRate == "..":
@@ -121,7 +121,7 @@ with open('datasets/education.csv') as csv_file:
         if line_count % 13 == 11:
             maleChildrenOutOfPrimarySchool_index = 0
             for c in country:
-                # Children out of school, female (% of female primary school age)
+                # Children out of school, male (% of male primary school age)
                 maleChildrenOutOfPrimarySchool = row[maleChildrenOutOfPrimarySchool_index+4]
                 maleChildrenOutOfPrimarySchool_index += 1
                 if maleChildrenOutOfPrimarySchool == "..":
@@ -131,7 +131,7 @@ with open('datasets/education.csv') as csv_file:
         if line_count % 13 == 12:
             femaleAdolescentsOutOfPrimarySchool_index = 0
             for c in country:
-                # Children out of school, female (% of female primary school age)
+                # Adolescents out of school, female (% of female primary school age)
                 femaleAdolescentsOutOfPrimarySchool = row[femaleAdolescentsOutOfPrimarySchool_index+4]
                 femaleAdolescentsOutOfPrimarySchool_index += 1
                 if femaleAdolescentsOutOfPrimarySchool == "..":
@@ -142,7 +142,7 @@ with open('datasets/education.csv') as csv_file:
         if line_count % 13 == 0:
             maleAdolescentsOutOfPrimarySchool_index = 0
             for c in country:
-                # Children out of school, female (% of female primary school age)
+                # Adolescents out of school, male (% of male primary school age)
                 maleAdolescentsOutOfPrimarySchool = row[maleAdolescentsOutOfPrimarySchool_index+4]
                 maleAdolescentsOutOfPrimarySchool_index += 1
                 if maleAdolescentsOutOfPrimarySchool == "..":
@@ -155,14 +155,14 @@ with open('datasets/education.csv') as csv_file:
 print(parsed[0])
 
 
-with open('parsedEducation.csv', mode='w') as country_file:
+with open('../parsedDataset/parsedEducation.csv', mode='w') as country_file:
     country_writer = csv.writer(
         country_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    country_writer.writerow(["id", "year", "primarySchoolEnrollment", "secondarySchoolEnrollment", "femalePrimaryCompletionRate",
-                             "malePrimaryCompletionRate", "malePrimaryCompletionRate", "totalPublicSpendingOnEducation",
+    country_writer.writerow(["id","country","year", "primarySchoolEnrollment", "secondarySchoolEnrollment", "femalePrimaryCompletionRate",
+                             "malePrimaryCompletionRate",
                              "adultFemaleLiteracyRate", "adultMaleLiteracyRate", "youthFemaleLiteracyRate",
                              "youthMaleLiteracyRate", "maleChildrenOutOfPrimarySchool", "femaleChildrenOutOfPrimarySchool",
-                             "femaleAdolescentsOutOfPrimarySchool"])
+                             "femaleAdolescentsOutOfPrimarySchool", "maleAdolescentsOutOfPrimarySchool"])
     for country in parsed:
         for row in country:
             country_writer.writerow(row)
