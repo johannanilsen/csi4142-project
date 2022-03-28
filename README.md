@@ -6,6 +6,12 @@ Make sure you have Python3 and pip3 installed.
 
 `python3 --version` should return `Python 3.9.10`
 
+### Windows
+
+Run `bash init.sh` and then `python3 load-database.py`
+
+### Mac / Linux
+
 Then run `chmod +x init.sh`
 
 and `./init.sh`.
