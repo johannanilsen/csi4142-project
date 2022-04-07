@@ -5,6 +5,9 @@ import os
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import OneClassSVM
+import time
+from numpy import quantile, where, random
 from sklearn import tree
 from sklearn import metrics
 from sklearn.preprocessing import LabelEncoder
@@ -63,8 +66,19 @@ def summarization(og_df, graphs_dir):
         # Effect of year changes on country's GDP
         if 'GDP' in df:  # Country dataset
             plt.plot(df['year'], df['GDP'])
+            if country == "Canada" or country == "Mexico":
+                plt.ylabel("GDP (in trillions)")
+
+            if country == "United States":
+                plt.ylabel("GDP (in ten trillions)")
+
+            if country == "Mali" or country == "Niger":
+                plt.ylabel("GDP (in ten billions)")
+
+            if country == "Nigeria" or country == "Pakistan" or country == "Ethiopia" or country == "Argentina":
+                plt.ylabel("GDP (in hundred billions)")
+
             plt.xlabel("Year")
-            plt.ylabel("GDP")
             plt.title("GDP of " + country + " over time")
             plt.savefig(graphs_dir + '\\GDP\\' + country + '_GDP.png')
 
@@ -122,6 +136,11 @@ def transformation(df):
         df = df.drop('contraceptivePrevalenceMarried', 1)
         df = df.drop('contraceptivePrevalenceUnmarried', 1)
 
+    # Drop redundant columns:
+    if 'youthFemaleLiteracyRate' in df:
+        df = df.drop('youthFemaleLiteracyRate', 1)
+        df = df.drop('youthMaleLiteracyRate', 1)
+
     # Fill in null values with mean value of the column for that country
     if 'name' in df:
         df = df.fillna(df.groupby('name').transform('mean'))
@@ -140,6 +159,26 @@ def encode_df(dataframe):
     return dataframe
 
 
+def normalize(df):
+    """Normalize columns"""
+    if 'birthRate' in df:
+        df['birthRate'] = (df['birthRate'] - df['birthRate'].min()) / (df['birthRate'].max() - df['birthRate'].min())
+        df['deathRate'] = (df['deathRate'] - df['deathRate'].min()) / (df['deathRate'].max() - df['deathRate'].min())
+        df['fertilityRate'] = (df['fertilityRate'] - df['fertilityRate'].min()) / (df['fertilityRate'].max() - df['fertilityRate'].min())
+
+    if 'adultMaleLiteracyRate' in df:
+        df['adultMaleLiteracyRate'] = (df['adultMaleLiteracyRate'] - df['adultMaleLiteracyRate'].min()) / (
+                df['adultMaleLiteracyRate'].max() - df['adultMaleLiteracyRate'].min())
+        df['adultFemaleLiteracyRate'] = (df['adultFemaleLiteracyRate'] - df['adultFemaleLiteracyRate'].min()) / (
+                    df['adultFemaleLiteracyRate'].max() - df['adultFemaleLiteracyRate'].min())
+
+    if 'populationSize' in df:
+        df['populationSize'] = (df['populationSize'] - df['populationSize'].min()) / (df['populationSize'].max() - df['populationSize'].min())
+        df['averageAge'] = (df['averageAge'] - df['averageAge'].min()) / (df['averageAge'].max() - df['averageAge'].min())
+
+    return df
+
+
 def assign_label(i):
     if 0 <= i < 40:
         return 'low'
@@ -149,7 +188,7 @@ def assign_label(i):
         return 'high'
 
 
-def classsification(df):
+def classification(df):
     # Predict which countries will have a Human Development Index less than 0.7
     X = df.drop(['developed_status'], axis=1).values
     y = df['developed_status'].values
@@ -164,9 +203,19 @@ def classsification(df):
 
     results_dir = os.path.abspath(os.path.join(__file__, "../")) + "\\results"
 
+    start_time = time.time()
     decision_tree(X_train, X_test, y_train, y_test, results_dir)
+    print("--- %s seconds for decision tree---" % (time.time() - start_time))
+
+    start_time = time.time()
     gradient_boost(X_train, X_test, y_train, y_test, results_dir)
+    print("--- %s seconds for gradient boost---" % (time.time() - start_time))
+
+    start_time = time.time()
     random_forest(X_train, X_test, y_train, y_test, results_dir)
+    print("--- %s seconds for random forest---" % (time.time() - start_time))
+
+    # one_class_svm(X_train, X_test, y_train, y_test, results_dir)
 
 
 def main():
@@ -183,10 +232,12 @@ def main():
 
         df2 = transformation(df)
         # summarization(df2, graphs_dir)
-        df3 = encode_df(df2)
 
-        if 'name' not in df3:
-            frames.append(df3)
+        df3 = encode_df(df2)
+        df4 = normalize(df3)
+
+        if 'name' not in df4:
+            frames.append(df4)
 
     combined = pd.concat(frames)
     combined = combined[combined['humanDevelopmentIndex'].notna()]  # Drop null values for HDI
@@ -194,7 +245,7 @@ def main():
     #  Add labels for development status of the country: {low, med, high}
     combined['developed_status'] = combined['humanDevelopmentIndex'].apply(assign_label)
 
-    classsification(combined)
+    classification(combined)
 
 
 if __name__ == "__main__":
