@@ -193,7 +193,7 @@ def classification(df):
     X = df.drop(['developed_status'], axis=1).values
     y = df['developed_status'].values
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42, shuffle=True)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42, shuffle=True)
 
     X_train[np.isnan(X_train)] = 0  # Fill nan with 0
     X_test[np.isnan(X_test)] = 0  # Fill nan with 0
