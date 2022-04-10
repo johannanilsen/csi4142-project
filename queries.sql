@@ -19,10 +19,6 @@ and C.name='Canada'
 GROUP BY M.year, M.quater, M.month, C.name;
 
 -- Dicing
-
--- (i) the prevalence of health conditions, 
--- (ii) the literacy rates
-
 SELECT COUNT(*) M.year, C.name, E.name, 
 FROM fact_table as F, month as M, country as C, event as E
 WHERE F.monthKey = M.monthKey and F.countryKey = C.countryKey and F.eventKey = E.eventKey
@@ -69,15 +65,14 @@ GROUP BY M.year, ROLLUP(  C.continent, C.name)
 ORDER BY H.adultsWithHIV DESC
 
 -- Iceberg queries
-
 SELECT C.name, H.adultsWithHIV, M.month, M.year
 FROM fact_table as F, month as M, country as C, health as H
 WHERE F.monthKey = M.monthKey and F.countryKey = C.countryKey and F.healthKey = E.healthKey
 and C.continent='Africa' and M.year='2020'
 ORDER BY H.adultsWithHIV DESC
+OPTIMIZE FOR 10 ROWS 
 
 -- Windowing queries
-
 SELECT e.country, e.name, e.casualties, AVG(e.casualties),
 OVER (PARTITION BY e.country)
 FROM fact_table as F, month as M, country as C, event as E;  
